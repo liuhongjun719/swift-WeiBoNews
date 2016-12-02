@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJPlayerControlView.m \
+  WeiBoNews/Component/HJPlayerControlView.h \
+  Pods/ZFPlayer/ZFPlayer/Category/UIView+CustomControlView.h \
+  Pods/ZFPlayer/ZFPlayer/ZFPlayer.h \
+  Pods/ZFPlayer/ZFPlayer/ZFPlayerView.h \
+  Pods/ZFPlayer/ZFPlayer/ZFPlayerControlView.h \
+  Pods/ZFPlayer/ZFPlayer/ASValueTrackingSlider.h \
+  Pods/ZFPlayer/ZFPlayer/ASValuePopUpView.h \
+  Pods/ZFPlayer/ZFPlayer/ZFPlayerModel.h \
+  Pods/ZFPlayer/ZFPlayer/ZFBrightnessView.h \
+  Pods/ZFPlayer/ZFPlayer/Category/UITabBarController+ZFPlayerRotation.h \
+  Pods/ZFPlayer/ZFPlayer/Category/UIViewController+ZFPlayerRotation.h \
+  Pods/ZFPlayer/ZFPlayer/Category/UINavigationController+ZFPlayerRotation.h \
+  Pods/ZFPlayer/ZFPlayer/Category/NSObject+Extend.h \
+  Pods/ZFPlayer/ZFPlayer/Category/UIImageView+ZFCache.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h \
+  /Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h \
+  Pods/ZFPlayer/ZFPlayer/ZFFullScreenViewController.h \
+  Pods/ZFPlayer/ZFPlayer/MMMaterialDesignSpinner.h

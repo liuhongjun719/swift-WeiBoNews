@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "570af2c6c2d7659bd170138e148ab883"
+build_time: [533977300, 345208000]
+inputs:
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/AFError.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/Alamofire.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/MultipartFormData.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/Notifications.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/ParameterEncoding.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/Request.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/Response.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/ResponseSerialization.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/Result.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/ServerTrustPolicy.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/SessionDelegate.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/SessionManager.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/TaskDelegate.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/Timeline.swift": [532143489, 0]
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/Alamofire/Source/Validation.swift": [532143489, 0]

@@ -1,0 +1,1460 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryViewController"
+provides-nominal:
+- "C9WeiBoNews22CategoryViewController"
+provides-member:
+- ["C9WeiBoNews22CategoryViewController", ""]
+provides-dynamic-lookup:
+- "homeTopItemCached"
+- "initializeCategoryData"
+- "topBarView"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "viewDidAppear"
+- "refreshTopItemBlock"
+- "viewWillDisappear"
+- "viewWillAppear"
+- "currentPageIndex"
+- "categoryCollectionView"
+- "menuList"
+- "switchToSelectedItemBlock"
+depends-top-level:
+- "MenuInfo"
+- "CategoryCollectionView"
+- "HomeTopItemCached"
+- !private "CGRect"
+- "UInt"
+- !private "BooleanLiteralType"
+- "StringLiteralType"
+- "Swift"
+- !private "M_PI_4"
+- !private "NSNotification"
+- "AssignmentPrecedence"
+- !private "NotificationCenter"
+- !private "=="
+- !private "-"
+- !private "UIView"
+- "CategoryViewController"
+- "Int"
+- "UIViewController"
+- !private "CGFloat"
+- "HJTopBarView"
+- "Bool"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "CategoryCollectionView"]
+- !private ["Ps9AnyObject", "HJTopBarView"]
+- !private ["Ps9AnyObject", "HomeTopItemCached"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "M_PI_4"]
+- ["Ps9AnyObject", "MenuInfo"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "UInt"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "animate"]
+- ["Ps9AnyObject", "categoryCollectionView"]
+- !private ["Ps9AnyObject", "closeBtn"]
+- !private ["Ps9AnyObject", "createTable"]
+- ["Ps9AnyObject", "currentPageIndex"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "didSelectEditItemAtBlock"]
+- !private ["Ps9AnyObject", "didSelectItemAtBlock"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "dismissControllerBlock"]
+- !private ["Ps9AnyObject", "eraseTable"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "homeTopItemCached"]
+- ["Ps9AnyObject", "homeTopItemCached.storage"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "initializeCategoryData"]
+- !private ["Ps9AnyObject", "insertItems"]
+- !private ["Ps9AnyObject", "itemDidExchangedBlock"]
+- ["Ps9AnyObject", "menuList"]
+- !private ["Ps9AnyObject", "parseModels"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "readItems"]
+- ["Ps9AnyObject", "refreshTopItemBlock"]
+- ["Ps9AnyObject", "switchToSelectedItemBlock"]
+- ["Ps9AnyObject", "topBarView"]
+- !private ["Ps9AnyObject", "transform"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidAppear"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", "viewWillDisappear"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "animate"]
+- !private ["PSo15CALayerDelegate", "closeBtn"]
+- !private ["PSo15CALayerDelegate", "currentPageIndex"]
+- !private ["PSo15CALayerDelegate", "didSelectEditItemAtBlock"]
+- !private ["PSo15CALayerDelegate", "didSelectItemAtBlock"]
+- !private ["PSo15CALayerDelegate", "dismissControllerBlock"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "itemDidExchangedBlock"]
+- !private ["PSo15CALayerDelegate", "parseModels"]
+- !private ["PSo15CALayerDelegate", "transform"]
+- !private ["VSC17CGAffineTransform", "deinit"]
+- !private ["VSC17CGAffineTransform", "rotated"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "CategoryCollectionView"]
+- !private ["Ps7CVarArg", "HJTopBarView"]
+- !private ["Ps7CVarArg", "HomeTopItemCached"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "M_PI_4"]
+- ["Ps7CVarArg", "MenuInfo"]
+- !private ["Ps7CVarArg", "NSNotification"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "UInt"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "animate"]
+- ["Ps7CVarArg", "categoryCollectionView"]
+- !private ["Ps7CVarArg", "closeBtn"]
+- !private ["Ps7CVarArg", "createTable"]
+- ["Ps7CVarArg", "currentPageIndex"]
+- !private ["Ps7CVarArg", "default"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "didSelectEditItemAtBlock"]
+- !private ["Ps7CVarArg", "didSelectItemAtBlock"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "dismissControllerBlock"]
+- !private ["Ps7CVarArg", "eraseTable"]
+- !private ["Ps7CVarArg", "frame"]
+- ["Ps7CVarArg", "homeTopItemCached"]
+- ["Ps7CVarArg", "homeTopItemCached.storage"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "initializeCategoryData"]
+- !private ["Ps7CVarArg", "insertItems"]
+- !private ["Ps7CVarArg", "itemDidExchangedBlock"]
+- ["Ps7CVarArg", "menuList"]
+- !private ["Ps7CVarArg", "parseModels"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "readItems"]
+- ["Ps7CVarArg", "refreshTopItemBlock"]
+- ["Ps7CVarArg", "switchToSelectedItemBlock"]
+- ["Ps7CVarArg", "topBarView"]
+- !private ["Ps7CVarArg", "transform"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidAppear"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "viewWillAppear"]
+- ["Ps7CVarArg", "viewWillDisappear"]
+- ["Ps7CVarArg", ""]
+- !private ["C9WeiBoNews22CategoryCollectionView", "currentPageIndex"]
+- ["C9WeiBoNews22CategoryCollectionView", "deinit"]
+- !private ["C9WeiBoNews22CategoryCollectionView", "didSelectEditItemAtBlock"]
+- !private ["C9WeiBoNews22CategoryCollectionView", "didSelectItemAtBlock"]
+- !private ["C9WeiBoNews22CategoryCollectionView", "init"]
+- !private ["C9WeiBoNews22CategoryCollectionView", "itemDidExchangedBlock"]
+- !private ["C9WeiBoNews22CategoryCollectionView", "parseModels"]
+- ["C9WeiBoNews22CategoryViewController", "Bool"]
+- !private ["C9WeiBoNews22CategoryViewController", "CGFloat"]
+- !private ["C9WeiBoNews22CategoryViewController", "CGRect"]
+- ["C9WeiBoNews22CategoryViewController", "CategoryCollectionView"]
+- ["C9WeiBoNews22CategoryViewController", "HJTopBarView"]
+- ["C9WeiBoNews22CategoryViewController", "HomeTopItemCached"]
+- ["C9WeiBoNews22CategoryViewController", "Int"]
+- !private ["C9WeiBoNews22CategoryViewController", "M_PI_4"]
+- ["C9WeiBoNews22CategoryViewController", "MenuInfo"]
+- !private ["C9WeiBoNews22CategoryViewController", "NSNotification"]
+- !private ["C9WeiBoNews22CategoryViewController", "NotificationCenter"]
+- ["C9WeiBoNews22CategoryViewController", "RefreshTopItemBlock"]
+- ["C9WeiBoNews22CategoryViewController", "Swift"]
+- ["C9WeiBoNews22CategoryViewController", "SwitchToSelectedItemBlock"]
+- !private ["C9WeiBoNews22CategoryViewController", "UIView"]
+- ["C9WeiBoNews22CategoryViewController", "UInt"]
+- ["C9WeiBoNews22CategoryViewController", "categoryCollectionView"]
+- ["C9WeiBoNews22CategoryViewController", "currentPageIndex"]
+- ["C9WeiBoNews22CategoryViewController", "deinit"]
+- ["C9WeiBoNews22CategoryViewController", "didReceiveMemoryWarning"]
+- !private ["C9WeiBoNews22CategoryViewController", "dismiss"]
+- ["C9WeiBoNews22CategoryViewController", "homeTopItemCached"]
+- !private ["C9WeiBoNews22CategoryViewController", "homeTopItemCached.storage"]
+- ["C9WeiBoNews22CategoryViewController", "init"]
+- ["C9WeiBoNews22CategoryViewController", "initializeCategoryData"]
+- ["C9WeiBoNews22CategoryViewController", "menuList"]
+- ["C9WeiBoNews22CategoryViewController", "refreshTopItemBlock"]
+- ["C9WeiBoNews22CategoryViewController", "switchToSelectedItemBlock"]
+- ["C9WeiBoNews22CategoryViewController", "topBarView"]
+- !private ["C9WeiBoNews22CategoryViewController", "view"]
+- ["C9WeiBoNews22CategoryViewController", "viewDidAppear"]
+- ["C9WeiBoNews22CategoryViewController", "viewDidLoad"]
+- ["C9WeiBoNews22CategoryViewController", "viewWillAppear"]
+- ["C9WeiBoNews22CategoryViewController", "viewWillDisappear"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "height"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "init"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "width"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "init"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "init"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "init"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "init"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "addSubview"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "animate"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "closeBtn"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "currentPageIndex"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "didSelectEditItemAtBlock"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "didSelectItemAtBlock"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "dismissControllerBlock"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "frame"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "height"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "init"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "itemDidExchangedBlock"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "parseModels"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "transform"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "CategoryCollectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "HJTopBarView"]
+- !private ["Ps28CustomDebugStringConvertible", "HomeTopItemCached"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI_4"]
+- ["Ps28CustomDebugStringConvertible", "MenuInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "UInt"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "animate"]
+- ["Ps28CustomDebugStringConvertible", "categoryCollectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "closeBtn"]
+- !private ["Ps28CustomDebugStringConvertible", "createTable"]
+- ["Ps28CustomDebugStringConvertible", "currentPageIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "didSelectEditItemAtBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "didSelectItemAtBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissControllerBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "eraseTable"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "homeTopItemCached"]
+- ["Ps28CustomDebugStringConvertible", "homeTopItemCached.storage"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "initializeCategoryData"]
+- !private ["Ps28CustomDebugStringConvertible", "insertItems"]
+- !private ["Ps28CustomDebugStringConvertible", "itemDidExchangedBlock"]
+- ["Ps28CustomDebugStringConvertible", "menuList"]
+- !private ["Ps28CustomDebugStringConvertible", "parseModels"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "readItems"]
+- ["Ps28CustomDebugStringConvertible", "refreshTopItemBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps28CustomDebugStringConvertible", "switchToSelectedItemBlock"]
+- ["Ps28CustomDebugStringConvertible", "topBarView"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewWillDisappear"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "size"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "CategoryCollectionView"]
+- !private ["Ps23CustomStringConvertible", "HJTopBarView"]
+- !private ["Ps23CustomStringConvertible", "HomeTopItemCached"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "M_PI_4"]
+- ["Ps23CustomStringConvertible", "MenuInfo"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "UInt"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "animate"]
+- ["Ps23CustomStringConvertible", "categoryCollectionView"]
+- !private ["Ps23CustomStringConvertible", "closeBtn"]
+- !private ["Ps23CustomStringConvertible", "createTable"]
+- ["Ps23CustomStringConvertible", "currentPageIndex"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "didSelectEditItemAtBlock"]
+- !private ["Ps23CustomStringConvertible", "didSelectItemAtBlock"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "dismissControllerBlock"]
+- !private ["Ps23CustomStringConvertible", "eraseTable"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "homeTopItemCached"]
+- ["Ps23CustomStringConvertible", "homeTopItemCached.storage"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "initializeCategoryData"]
+- !private ["Ps23CustomStringConvertible", "insertItems"]
+- !private ["Ps23CustomStringConvertible", "itemDidExchangedBlock"]
+- ["Ps23CustomStringConvertible", "menuList"]
+- !private ["Ps23CustomStringConvertible", "parseModels"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "readItems"]
+- ["Ps23CustomStringConvertible", "refreshTopItemBlock"]
+- ["Ps23CustomStringConvertible", "switchToSelectedItemBlock"]
+- ["Ps23CustomStringConvertible", "topBarView"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidAppear"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", "viewWillDisappear"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "CategoryCollectionView"]
+- !private ["Ps9Equatable", "HJTopBarView"]
+- !private ["Ps9Equatable", "HomeTopItemCached"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "M_PI_4"]
+- ["Ps9Equatable", "MenuInfo"]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "UInt"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "animate"]
+- ["Ps9Equatable", "categoryCollectionView"]
+- !private ["Ps9Equatable", "closeBtn"]
+- !private ["Ps9Equatable", "createTable"]
+- ["Ps9Equatable", "currentPageIndex"]
+- !private ["Ps9Equatable", "curveEaseIn"]
+- !private ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "didSelectEditItemAtBlock"]
+- !private ["Ps9Equatable", "didSelectItemAtBlock"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "dismissControllerBlock"]
+- !private ["Ps9Equatable", "eraseTable"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "homeTopItemCached"]
+- ["Ps9Equatable", "homeTopItemCached.storage"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "initializeCategoryData"]
+- !private ["Ps9Equatable", "insertItems"]
+- !private ["Ps9Equatable", "itemDidExchangedBlock"]
+- ["Ps9Equatable", "menuList"]
+- !private ["Ps9Equatable", "parseModels"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "readItems"]
+- ["Ps9Equatable", "refreshTopItemBlock"]
+- !private ["Ps9Equatable", "rotated"]
+- !private ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "switchToSelectedItemBlock"]
+- ["Ps9Equatable", "topBarView"]
+- !private ["Ps9Equatable", "transform"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidAppear"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", "viewWillDisappear"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "curveEaseIn"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["C9WeiBoNews12HJTopBarView", "closeBtn"]
+- ["C9WeiBoNews12HJTopBarView", "deinit"]
+- !private ["C9WeiBoNews12HJTopBarView", "dismissControllerBlock"]
+- !private ["C9WeiBoNews12HJTopBarView", "frame"]
+- !private ["C9WeiBoNews12HJTopBarView", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "CategoryCollectionView"]
+- !private ["Ps8Hashable", "HJTopBarView"]
+- !private ["Ps8Hashable", "HomeTopItemCached"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "M_PI_4"]
+- ["Ps8Hashable", "MenuInfo"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "UInt"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "animate"]
+- ["Ps8Hashable", "categoryCollectionView"]
+- !private ["Ps8Hashable", "closeBtn"]
+- !private ["Ps8Hashable", "createTable"]
+- ["Ps8Hashable", "currentPageIndex"]
+- !private ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "didSelectEditItemAtBlock"]
+- !private ["Ps8Hashable", "didSelectItemAtBlock"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "dismissControllerBlock"]
+- !private ["Ps8Hashable", "eraseTable"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "homeTopItemCached"]
+- ["Ps8Hashable", "homeTopItemCached.storage"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "initializeCategoryData"]
+- !private ["Ps8Hashable", "insertItems"]
+- !private ["Ps8Hashable", "itemDidExchangedBlock"]
+- ["Ps8Hashable", "menuList"]
+- !private ["Ps8Hashable", "parseModels"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "readItems"]
+- ["Ps8Hashable", "refreshTopItemBlock"]
+- ["Ps8Hashable", "switchToSelectedItemBlock"]
+- ["Ps8Hashable", "topBarView"]
+- !private ["Ps8Hashable", "transform"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidAppear"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", "viewWillDisappear"]
+- ["Ps8Hashable", ""]
+- !private ["C9WeiBoNews17HomeTopItemCached", "createTable"]
+- ["C9WeiBoNews17HomeTopItemCached", "deinit"]
+- !private ["C9WeiBoNews17HomeTopItemCached", "eraseTable"]
+- !private ["C9WeiBoNews17HomeTopItemCached", "init"]
+- !private ["C9WeiBoNews17HomeTopItemCached", "insertItems"]
+- !private ["C9WeiBoNews17HomeTopItemCached", "readItems"]
+- ["SQ", "deinit"]
+- ["Ps9Indexable", "init"]
+- ["Ps13IndexableBase", "init"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "init"]
+- ["Ps16MutableIndexable", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "CategoryCollectionView"]
+- !private ["PSo8NSCoding", "HJTopBarView"]
+- !private ["PSo8NSCoding", "HomeTopItemCached"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "M_PI_4"]
+- ["PSo8NSCoding", "MenuInfo"]
+- !private ["PSo8NSCoding", "NSNotification"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "NotificationCenter"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "UInt"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "animate"]
+- ["PSo8NSCoding", "categoryCollectionView"]
+- !private ["PSo8NSCoding", "closeBtn"]
+- ["PSo8NSCoding", "currentPageIndex"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "didSelectEditItemAtBlock"]
+- !private ["PSo8NSCoding", "didSelectItemAtBlock"]
+- !private ["PSo8NSCoding", "dismiss"]
+- !private ["PSo8NSCoding", "dismissControllerBlock"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "homeTopItemCached"]
+- ["PSo8NSCoding", "homeTopItemCached.storage"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "initializeCategoryData"]
+- !private ["PSo8NSCoding", "itemDidExchangedBlock"]
+- ["PSo8NSCoding", "menuList"]
+- !private ["PSo8NSCoding", "parseModels"]
+- ["PSo8NSCoding", "refreshTopItemBlock"]
+- ["PSo8NSCoding", "switchToSelectedItemBlock"]
+- ["PSo8NSCoding", "topBarView"]
+- !private ["PSo8NSCoding", "transform"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", "viewWillDisappear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Name"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CGFloat"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRect"]
+- !private ["PSo26NSExtensionRequestHandling", "CategoryCollectionView"]
+- !private ["PSo26NSExtensionRequestHandling", "HJTopBarView"]
+- !private ["PSo26NSExtensionRequestHandling", "HomeTopItemCached"]
+- !private ["PSo26NSExtensionRequestHandling", "Int"]
+- !private ["PSo26NSExtensionRequestHandling", "M_PI_4"]
+- ["PSo26NSExtensionRequestHandling", "MenuInfo"]
+- !private ["PSo26NSExtensionRequestHandling", "NSNotification"]
+- !private ["PSo26NSExtensionRequestHandling", "NotificationCenter"]
+- !private ["PSo26NSExtensionRequestHandling", "UIView"]
+- !private ["PSo26NSExtensionRequestHandling", "UInt"]
+- ["PSo26NSExtensionRequestHandling", "categoryCollectionView"]
+- ["PSo26NSExtensionRequestHandling", "currentPageIndex"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- ["PSo26NSExtensionRequestHandling", "homeTopItemCached"]
+- ["PSo26NSExtensionRequestHandling", "homeTopItemCached.storage"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "initializeCategoryData"]
+- ["PSo26NSExtensionRequestHandling", "menuList"]
+- ["PSo26NSExtensionRequestHandling", "refreshTopItemBlock"]
+- ["PSo26NSExtensionRequestHandling", "switchToSelectedItemBlock"]
+- ["PSo26NSExtensionRequestHandling", "topBarView"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewWillDisappear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo14NSNotification", "Name"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "CategoryCollectionView"]
+- ["CSo8NSObject", "HJTopBarView"]
+- ["CSo8NSObject", "HomeTopItemCached"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "M_PI_4"]
+- ["CSo8NSObject", "MenuInfo"]
+- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- ["CSo8NSObject", "RefreshTopItemBlock"]
+- ["CSo8NSObject", "Swift"]
+- ["CSo8NSObject", "SwitchToSelectedItemBlock"]
+- !private ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "UInt"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "animate"]
+- ["CSo8NSObject", "categoryCollectionView"]
+- !private ["CSo8NSObject", "closeBtn"]
+- !private ["CSo8NSObject", "createTable"]
+- ["CSo8NSObject", "currentPageIndex"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "didSelectEditItemAtBlock"]
+- !private ["CSo8NSObject", "didSelectItemAtBlock"]
+- !private ["CSo8NSObject", "dismiss"]
+- !private ["CSo8NSObject", "dismissControllerBlock"]
+- !private ["CSo8NSObject", "eraseTable"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "homeTopItemCached"]
+- ["CSo8NSObject", "homeTopItemCached.storage"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initializeCategoryData"]
+- !private ["CSo8NSObject", "insertItems"]
+- !private ["CSo8NSObject", "itemDidExchangedBlock"]
+- ["CSo8NSObject", "menuList"]
+- !private ["CSo8NSObject", "parseModels"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "readItems"]
+- ["CSo8NSObject", "refreshTopItemBlock"]
+- ["CSo8NSObject", "switchToSelectedItemBlock"]
+- ["CSo8NSObject", "topBarView"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["CSo8NSObject", "viewWillDisappear"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "CategoryCollectionView"]
+- !private ["PSo16NSObjectProtocol", "HJTopBarView"]
+- !private ["PSo16NSObjectProtocol", "HomeTopItemCached"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "M_PI_4"]
+- ["PSo16NSObjectProtocol", "MenuInfo"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "UInt"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "animate"]
+- ["PSo16NSObjectProtocol", "categoryCollectionView"]
+- !private ["PSo16NSObjectProtocol", "closeBtn"]
+- !private ["PSo16NSObjectProtocol", "createTable"]
+- ["PSo16NSObjectProtocol", "currentPageIndex"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "didSelectEditItemAtBlock"]
+- !private ["PSo16NSObjectProtocol", "didSelectItemAtBlock"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "dismissControllerBlock"]
+- !private ["PSo16NSObjectProtocol", "eraseTable"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "homeTopItemCached"]
+- ["PSo16NSObjectProtocol", "homeTopItemCached.storage"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initializeCategoryData"]
+- !private ["PSo16NSObjectProtocol", "insertItems"]
+- !private ["PSo16NSObjectProtocol", "itemDidExchangedBlock"]
+- ["PSo16NSObjectProtocol", "menuList"]
+- !private ["PSo16NSObjectProtocol", "parseModels"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "readItems"]
+- ["PSo16NSObjectProtocol", "refreshTopItemBlock"]
+- ["PSo16NSObjectProtocol", "switchToSelectedItemBlock"]
+- ["PSo16NSObjectProtocol", "topBarView"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "viewWillDisappear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "post"]
+- !private ["Ps9OptionSet", "curveEaseIn"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps21RandomAccessIndexable", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps16RawRepresentable", "curveEaseIn"]
+- !private ["Ps16RawRepresentable", "init"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps10SetAlgebra", "curveEaseIn"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "animate"]
+- !private ["PSo29UIAccessibilityIdentification", "closeBtn"]
+- !private ["PSo29UIAccessibilityIdentification", "currentPageIndex"]
+- !private ["PSo29UIAccessibilityIdentification", "didSelectEditItemAtBlock"]
+- !private ["PSo29UIAccessibilityIdentification", "didSelectItemAtBlock"]
+- !private ["PSo29UIAccessibilityIdentification", "dismissControllerBlock"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "itemDidExchangedBlock"]
+- !private ["PSo29UIAccessibilityIdentification", "parseModels"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "animate"]
+- !private ["PSo12UIAppearance", "closeBtn"]
+- !private ["PSo12UIAppearance", "currentPageIndex"]
+- !private ["PSo12UIAppearance", "didSelectEditItemAtBlock"]
+- !private ["PSo12UIAppearance", "didSelectItemAtBlock"]
+- !private ["PSo12UIAppearance", "dismissControllerBlock"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "itemDidExchangedBlock"]
+- !private ["PSo12UIAppearance", "parseModels"]
+- !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "CategoryCollectionView"]
+- !private ["PSo21UIAppearanceContainer", "HJTopBarView"]
+- !private ["PSo21UIAppearanceContainer", "HomeTopItemCached"]
+- !private ["PSo21UIAppearanceContainer", "Int"]
+- !private ["PSo21UIAppearanceContainer", "M_PI_4"]
+- ["PSo21UIAppearanceContainer", "MenuInfo"]
+- !private ["PSo21UIAppearanceContainer", "NSNotification"]
+- !private ["PSo21UIAppearanceContainer", "NotificationCenter"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "UInt"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "animate"]
+- ["PSo21UIAppearanceContainer", "categoryCollectionView"]
+- !private ["PSo21UIAppearanceContainer", "closeBtn"]
+- ["PSo21UIAppearanceContainer", "currentPageIndex"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "didSelectEditItemAtBlock"]
+- !private ["PSo21UIAppearanceContainer", "didSelectItemAtBlock"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "dismissControllerBlock"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "homeTopItemCached"]
+- ["PSo21UIAppearanceContainer", "homeTopItemCached.storage"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "initializeCategoryData"]
+- !private ["PSo21UIAppearanceContainer", "itemDidExchangedBlock"]
+- ["PSo21UIAppearanceContainer", "menuList"]
+- !private ["PSo21UIAppearanceContainer", "parseModels"]
+- ["PSo21UIAppearanceContainer", "refreshTopItemBlock"]
+- ["PSo21UIAppearanceContainer", "switchToSelectedItemBlock"]
+- ["PSo21UIAppearanceContainer", "topBarView"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", "viewWillDisappear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "transform"]
+- !private ["PSo26UICollectionViewDataSource", "currentPageIndex"]
+- !private ["PSo26UICollectionViewDataSource", "didSelectEditItemAtBlock"]
+- !private ["PSo26UICollectionViewDataSource", "didSelectItemAtBlock"]
+- !private ["PSo26UICollectionViewDataSource", "init"]
+- !private ["PSo26UICollectionViewDataSource", "itemDidExchangedBlock"]
+- !private ["PSo26UICollectionViewDataSource", "parseModels"]
+- !private ["PSo24UICollectionViewDelegate", "currentPageIndex"]
+- !private ["PSo24UICollectionViewDelegate", "didSelectEditItemAtBlock"]
+- !private ["PSo24UICollectionViewDelegate", "didSelectItemAtBlock"]
+- !private ["PSo24UICollectionViewDelegate", "init"]
+- !private ["PSo24UICollectionViewDelegate", "itemDidExchangedBlock"]
+- !private ["PSo24UICollectionViewDelegate", "parseModels"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "currentPageIndex"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "didSelectEditItemAtBlock"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "didSelectItemAtBlock"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "init"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "itemDidExchangedBlock"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "parseModels"]
+- !private ["PSo18UIContentContainer", "CGFloat"]
+- !private ["PSo18UIContentContainer", "CGRect"]
+- !private ["PSo18UIContentContainer", "CategoryCollectionView"]
+- !private ["PSo18UIContentContainer", "HJTopBarView"]
+- !private ["PSo18UIContentContainer", "HomeTopItemCached"]
+- !private ["PSo18UIContentContainer", "Int"]
+- !private ["PSo18UIContentContainer", "M_PI_4"]
+- ["PSo18UIContentContainer", "MenuInfo"]
+- !private ["PSo18UIContentContainer", "NSNotification"]
+- !private ["PSo18UIContentContainer", "NotificationCenter"]
+- !private ["PSo18UIContentContainer", "UIView"]
+- !private ["PSo18UIContentContainer", "UInt"]
+- ["PSo18UIContentContainer", "categoryCollectionView"]
+- ["PSo18UIContentContainer", "currentPageIndex"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- ["PSo18UIContentContainer", "homeTopItemCached"]
+- ["PSo18UIContentContainer", "homeTopItemCached.storage"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "initializeCategoryData"]
+- ["PSo18UIContentContainer", "menuList"]
+- ["PSo18UIContentContainer", "refreshTopItemBlock"]
+- ["PSo18UIContentContainer", "switchToSelectedItemBlock"]
+- ["PSo18UIContentContainer", "topBarView"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", "viewWillDisappear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "transform"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "animate"]
+- !private ["PSo17UICoordinateSpace", "closeBtn"]
+- !private ["PSo17UICoordinateSpace", "currentPageIndex"]
+- !private ["PSo17UICoordinateSpace", "didSelectEditItemAtBlock"]
+- !private ["PSo17UICoordinateSpace", "didSelectItemAtBlock"]
+- !private ["PSo17UICoordinateSpace", "dismissControllerBlock"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "itemDidExchangedBlock"]
+- !private ["PSo17UICoordinateSpace", "parseModels"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "animate"]
+- !private ["PSo13UIDynamicItem", "closeBtn"]
+- !private ["PSo13UIDynamicItem", "currentPageIndex"]
+- !private ["PSo13UIDynamicItem", "didSelectEditItemAtBlock"]
+- !private ["PSo13UIDynamicItem", "didSelectItemAtBlock"]
+- !private ["PSo13UIDynamicItem", "dismissControllerBlock"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "itemDidExchangedBlock"]
+- !private ["PSo13UIDynamicItem", "parseModels"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "CategoryCollectionView"]
+- !private ["PSo18UIFocusEnvironment", "HJTopBarView"]
+- !private ["PSo18UIFocusEnvironment", "HomeTopItemCached"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- !private ["PSo18UIFocusEnvironment", "M_PI_4"]
+- ["PSo18UIFocusEnvironment", "MenuInfo"]
+- !private ["PSo18UIFocusEnvironment", "NSNotification"]
+- !private ["PSo18UIFocusEnvironment", "NotificationCenter"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "UInt"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "animate"]
+- ["PSo18UIFocusEnvironment", "categoryCollectionView"]
+- !private ["PSo18UIFocusEnvironment", "closeBtn"]
+- ["PSo18UIFocusEnvironment", "currentPageIndex"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "didSelectEditItemAtBlock"]
+- !private ["PSo18UIFocusEnvironment", "didSelectItemAtBlock"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "dismissControllerBlock"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "homeTopItemCached"]
+- ["PSo18UIFocusEnvironment", "homeTopItemCached.storage"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "initializeCategoryData"]
+- !private ["PSo18UIFocusEnvironment", "itemDidExchangedBlock"]
+- ["PSo18UIFocusEnvironment", "menuList"]
+- !private ["PSo18UIFocusEnvironment", "parseModels"]
+- ["PSo18UIFocusEnvironment", "refreshTopItemBlock"]
+- ["PSo18UIFocusEnvironment", "switchToSelectedItemBlock"]
+- ["PSo18UIFocusEnvironment", "topBarView"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", "viewWillDisappear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "animate"]
+- !private ["PSo11UIFocusItem", "closeBtn"]
+- !private ["PSo11UIFocusItem", "currentPageIndex"]
+- !private ["PSo11UIFocusItem", "didSelectEditItemAtBlock"]
+- !private ["PSo11UIFocusItem", "didSelectItemAtBlock"]
+- !private ["PSo11UIFocusItem", "dismissControllerBlock"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "itemDidExchangedBlock"]
+- !private ["PSo11UIFocusItem", "parseModels"]
+- !private ["PSo11UIFocusItem", "transform"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "CategoryCollectionView"]
+- ["CSo11UIResponder", "HJTopBarView"]
+- ["CSo11UIResponder", "HomeTopItemCached"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "M_PI_4"]
+- ["CSo11UIResponder", "MenuInfo"]
+- !private ["CSo11UIResponder", "NSNotification"]
+- !private ["CSo11UIResponder", "NotificationCenter"]
+- ["CSo11UIResponder", "RefreshTopItemBlock"]
+- ["CSo11UIResponder", "Swift"]
+- ["CSo11UIResponder", "SwitchToSelectedItemBlock"]
+- !private ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "UInt"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "animate"]
+- ["CSo11UIResponder", "categoryCollectionView"]
+- !private ["CSo11UIResponder", "closeBtn"]
+- ["CSo11UIResponder", "currentPageIndex"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "didSelectEditItemAtBlock"]
+- !private ["CSo11UIResponder", "didSelectItemAtBlock"]
+- !private ["CSo11UIResponder", "dismiss"]
+- !private ["CSo11UIResponder", "dismissControllerBlock"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "homeTopItemCached"]
+- ["CSo11UIResponder", "homeTopItemCached.storage"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initializeCategoryData"]
+- !private ["CSo11UIResponder", "itemDidExchangedBlock"]
+- ["CSo11UIResponder", "menuList"]
+- !private ["CSo11UIResponder", "parseModels"]
+- ["CSo11UIResponder", "refreshTopItemBlock"]
+- ["CSo11UIResponder", "switchToSelectedItemBlock"]
+- ["CSo11UIResponder", "topBarView"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["CSo11UIResponder", "viewWillDisappear"]
+- !private ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "CategoryCollectionView"]
+- !private ["PSo30UIResponderStandardEditActions", "HJTopBarView"]
+- !private ["PSo30UIResponderStandardEditActions", "HomeTopItemCached"]
+- !private ["PSo30UIResponderStandardEditActions", "Int"]
+- !private ["PSo30UIResponderStandardEditActions", "M_PI_4"]
+- ["PSo30UIResponderStandardEditActions", "MenuInfo"]
+- !private ["PSo30UIResponderStandardEditActions", "NSNotification"]
+- !private ["PSo30UIResponderStandardEditActions", "NotificationCenter"]
+- !private ["PSo30UIResponderStandardEditActions", "UIView"]
+- !private ["PSo30UIResponderStandardEditActions", "UInt"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "animate"]
+- ["PSo30UIResponderStandardEditActions", "categoryCollectionView"]
+- !private ["PSo30UIResponderStandardEditActions", "closeBtn"]
+- ["PSo30UIResponderStandardEditActions", "currentPageIndex"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "didSelectEditItemAtBlock"]
+- !private ["PSo30UIResponderStandardEditActions", "didSelectItemAtBlock"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "dismissControllerBlock"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- ["PSo30UIResponderStandardEditActions", "homeTopItemCached"]
+- ["PSo30UIResponderStandardEditActions", "homeTopItemCached.storage"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "initializeCategoryData"]
+- !private ["PSo30UIResponderStandardEditActions", "itemDidExchangedBlock"]
+- ["PSo30UIResponderStandardEditActions", "menuList"]
+- !private ["PSo30UIResponderStandardEditActions", "parseModels"]
+- ["PSo30UIResponderStandardEditActions", "refreshTopItemBlock"]
+- ["PSo30UIResponderStandardEditActions", "switchToSelectedItemBlock"]
+- ["PSo30UIResponderStandardEditActions", "topBarView"]
+- !private ["PSo30UIResponderStandardEditActions", "transform"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidAppear"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
+- ["PSo30UIResponderStandardEditActions", "viewWillDisappear"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "currentPageIndex"]
+- !private ["PSo20UIScrollViewDelegate", "didSelectEditItemAtBlock"]
+- !private ["PSo20UIScrollViewDelegate", "didSelectItemAtBlock"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "itemDidExchangedBlock"]
+- !private ["PSo20UIScrollViewDelegate", "parseModels"]
+- !private ["PSo16UIStateRestoring", "CGFloat"]
+- !private ["PSo16UIStateRestoring", "CGRect"]
+- !private ["PSo16UIStateRestoring", "CategoryCollectionView"]
+- !private ["PSo16UIStateRestoring", "HJTopBarView"]
+- !private ["PSo16UIStateRestoring", "HomeTopItemCached"]
+- !private ["PSo16UIStateRestoring", "Int"]
+- !private ["PSo16UIStateRestoring", "M_PI_4"]
+- ["PSo16UIStateRestoring", "MenuInfo"]
+- !private ["PSo16UIStateRestoring", "NSNotification"]
+- !private ["PSo16UIStateRestoring", "NotificationCenter"]
+- !private ["PSo16UIStateRestoring", "UIView"]
+- !private ["PSo16UIStateRestoring", "UInt"]
+- ["PSo16UIStateRestoring", "categoryCollectionView"]
+- ["PSo16UIStateRestoring", "currentPageIndex"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- ["PSo16UIStateRestoring", "homeTopItemCached"]
+- ["PSo16UIStateRestoring", "homeTopItemCached.storage"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "initializeCategoryData"]
+- ["PSo16UIStateRestoring", "menuList"]
+- ["PSo16UIStateRestoring", "refreshTopItemBlock"]
+- ["PSo16UIStateRestoring", "switchToSelectedItemBlock"]
+- ["PSo16UIStateRestoring", "topBarView"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "viewWillDisappear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "CategoryCollectionView"]
+- !private ["PSo18UITraitEnvironment", "HJTopBarView"]
+- !private ["PSo18UITraitEnvironment", "HomeTopItemCached"]
+- !private ["PSo18UITraitEnvironment", "Int"]
+- !private ["PSo18UITraitEnvironment", "M_PI_4"]
+- ["PSo18UITraitEnvironment", "MenuInfo"]
+- !private ["PSo18UITraitEnvironment", "NSNotification"]
+- !private ["PSo18UITraitEnvironment", "NotificationCenter"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "UInt"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "animate"]
+- ["PSo18UITraitEnvironment", "categoryCollectionView"]
+- !private ["PSo18UITraitEnvironment", "closeBtn"]
+- ["PSo18UITraitEnvironment", "currentPageIndex"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "didSelectEditItemAtBlock"]
+- !private ["PSo18UITraitEnvironment", "didSelectItemAtBlock"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "dismissControllerBlock"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "homeTopItemCached"]
+- ["PSo18UITraitEnvironment", "homeTopItemCached.storage"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "initializeCategoryData"]
+- !private ["PSo18UITraitEnvironment", "itemDidExchangedBlock"]
+- ["PSo18UITraitEnvironment", "menuList"]
+- !private ["PSo18UITraitEnvironment", "parseModels"]
+- ["PSo18UITraitEnvironment", "refreshTopItemBlock"]
+- ["PSo18UITraitEnvironment", "switchToSelectedItemBlock"]
+- ["PSo18UITraitEnvironment", "topBarView"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", "viewWillDisappear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "animate"]
+- !private ["CSo6UIView", "closeBtn"]
+- !private ["CSo6UIView", "currentPageIndex"]
+- !private ["CSo6UIView", "didSelectEditItemAtBlock"]
+- !private ["CSo6UIView", "didSelectItemAtBlock"]
+- !private ["CSo6UIView", "dismissControllerBlock"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "itemDidExchangedBlock"]
+- !private ["CSo6UIView", "parseModels"]
+- !private ["CSo6UIView", "transform"]
+- !private ["VSC22UIViewAnimationOptions", "curveEaseIn"]
+- ["VSC22UIViewAnimationOptions", "deinit"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "CGRect"]
+- ["CSo16UIViewController", "CategoryCollectionView"]
+- ["CSo16UIViewController", "HJTopBarView"]
+- ["CSo16UIViewController", "HomeTopItemCached"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "M_PI_4"]
+- ["CSo16UIViewController", "MenuInfo"]
+- !private ["CSo16UIViewController", "NSNotification"]
+- !private ["CSo16UIViewController", "NotificationCenter"]
+- ["CSo16UIViewController", "RefreshTopItemBlock"]
+- ["CSo16UIViewController", "Swift"]
+- ["CSo16UIViewController", "SwitchToSelectedItemBlock"]
+- !private ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "UInt"]
+- ["CSo16UIViewController", "categoryCollectionView"]
+- ["CSo16UIViewController", "currentPageIndex"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismiss"]
+- ["CSo16UIViewController", "homeTopItemCached"]
+- ["CSo16UIViewController", "homeTopItemCached.storage"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "initializeCategoryData"]
+- ["CSo16UIViewController", "menuList"]
+- ["CSo16UIViewController", "refreshTopItemBlock"]
+- ["CSo16UIViewController", "switchToSelectedItemBlock"]
+- ["CSo16UIViewController", "topBarView"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", "viewWillDisappear"]
+- ["CSo16UIViewController", ""]
+- ["Su", "deinit"]
+- !private ["Su", "init"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["PSo20VTMagicReuseProtocol", "CGFloat"]
+- !private ["PSo20VTMagicReuseProtocol", "CGRect"]
+- !private ["PSo20VTMagicReuseProtocol", "CategoryCollectionView"]
+- !private ["PSo20VTMagicReuseProtocol", "HJTopBarView"]
+- !private ["PSo20VTMagicReuseProtocol", "HomeTopItemCached"]
+- !private ["PSo20VTMagicReuseProtocol", "Int"]
+- !private ["PSo20VTMagicReuseProtocol", "M_PI_4"]
+- ["PSo20VTMagicReuseProtocol", "MenuInfo"]
+- !private ["PSo20VTMagicReuseProtocol", "NSNotification"]
+- !private ["PSo20VTMagicReuseProtocol", "NotificationCenter"]
+- !private ["PSo20VTMagicReuseProtocol", "UIView"]
+- !private ["PSo20VTMagicReuseProtocol", "UInt"]
+- ["PSo20VTMagicReuseProtocol", "categoryCollectionView"]
+- ["PSo20VTMagicReuseProtocol", "currentPageIndex"]
+- ["PSo20VTMagicReuseProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo20VTMagicReuseProtocol", "dismiss"]
+- ["PSo20VTMagicReuseProtocol", "homeTopItemCached"]
+- ["PSo20VTMagicReuseProtocol", "homeTopItemCached.storage"]
+- !private ["PSo20VTMagicReuseProtocol", "init"]
+- ["PSo20VTMagicReuseProtocol", "initializeCategoryData"]
+- ["PSo20VTMagicReuseProtocol", "menuList"]
+- ["PSo20VTMagicReuseProtocol", "refreshTopItemBlock"]
+- ["PSo20VTMagicReuseProtocol", "switchToSelectedItemBlock"]
+- ["PSo20VTMagicReuseProtocol", "topBarView"]
+- !private ["PSo20VTMagicReuseProtocol", "view"]
+- ["PSo20VTMagicReuseProtocol", "viewDidAppear"]
+- ["PSo20VTMagicReuseProtocol", "viewDidLoad"]
+- ["PSo20VTMagicReuseProtocol", "viewWillAppear"]
+- ["PSo20VTMagicReuseProtocol", "viewWillDisappear"]
+- ["PSo20VTMagicReuseProtocol", ""]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "closeBtn"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "currentPageIndex"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "didSelectEditItemAtBlock"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "didSelectItemAtBlock"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dismissControllerBlock"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "itemDidExchangedBlock"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "parseModels"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "CategoryCollectionView"]
+- !private ["Ps9_Hashable", "HJTopBarView"]
+- !private ["Ps9_Hashable", "HomeTopItemCached"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "M_PI_4"]
+- ["Ps9_Hashable", "MenuInfo"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "UInt"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "animate"]
+- ["Ps9_Hashable", "categoryCollectionView"]
+- !private ["Ps9_Hashable", "closeBtn"]
+- !private ["Ps9_Hashable", "createTable"]
+- ["Ps9_Hashable", "currentPageIndex"]
+- !private ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "didSelectEditItemAtBlock"]
+- !private ["Ps9_Hashable", "didSelectItemAtBlock"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "dismissControllerBlock"]
+- !private ["Ps9_Hashable", "eraseTable"]
+- !private ["Ps9_Hashable", "frame"]
+- ["Ps9_Hashable", "homeTopItemCached"]
+- ["Ps9_Hashable", "homeTopItemCached.storage"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "initializeCategoryData"]
+- !private ["Ps9_Hashable", "insertItems"]
+- !private ["Ps9_Hashable", "itemDidExchangedBlock"]
+- ["Ps9_Hashable", "menuList"]
+- !private ["Ps9_Hashable", "parseModels"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "readItems"]
+- ["Ps9_Hashable", "refreshTopItemBlock"]
+- ["Ps9_Hashable", "switchToSelectedItemBlock"]
+- ["Ps9_Hashable", "topBarView"]
+- !private ["Ps9_Hashable", "transform"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidAppear"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "viewWillAppear"]
+- ["Ps9_Hashable", "viewWillDisappear"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- !private "VSC6CGSize"
+- "Ps7CVarArg"
+- "C9WeiBoNews22CategoryCollectionView"
+- "C9WeiBoNews22CategoryViewController"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P7SnapKit24ConstraintConstantTarget"
+- !private "P7SnapKit21ConstraintInsetTarget"
+- !private "P7SnapKit26ConstraintMultiplierTarget"
+- !private "P7SnapKit22ConstraintOffsetTarget"
+- !private "P7SnapKit24ConstraintPriorityTarget"
+- !private "P7SnapKit25ConstraintRelatableTarget"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "C9WeiBoNews12HJTopBarView"
+- "Ps8Hashable"
+- "C9WeiBoNews17HomeTopItemCached"
+- "SQ"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "VCSo14NSNotification4Name"
+- !private "CSo18NotificationCenter"
+- !private "Ps9OptionSet"
+- "Sq"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "PSo26UICollectionViewDataSource"
+- !private "PSo24UICollectionViewDelegate"
+- !private "PSo34UICollectionViewDelegateFlowLayout"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "VSC22UIViewAnimationOptions"
+- "CSo16UIViewController"
+- "Su"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps15UnsignedInteger"
+- "PSo20VTMagicReuseProtocol"
+- "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/WeiBoNews-Bridging-Header.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJPlayerControlView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDB.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabase.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMResultSet.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabasePool.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseQueue.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshNormalHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshStateHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshGifHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/NSBundle+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshConst.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshComponent.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/MMMaterialDesignSpinner.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIView+CustomControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/BubbleTransition.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMenuBar.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTContentView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIScrollView+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIColor+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicMacros.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTEnumType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicProtocol.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIViewController+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "aae0d7f08892e8586c418da5ca96b24b"

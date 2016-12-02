@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "2e430ed3e8b2699e2bd76c4a95254abc"
+build_time: [533977324, 610123000]
+inputs:
+  "/Users/a123456/Desktop/React/WeiBoNews/Pods/BubbleTransition/Source/BubbleTransition.swift": [532660157, 0]

@@ -1,0 +1,323 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuInfo"
+provides-nominal:
+- "C9WeiBoNews8MenuInfo"
+provides-member:
+- ["C9WeiBoNews8MenuInfo", ""]
+provides-dynamic-lookup:
+- "type"
+- "subscribe"
+- "uicode"
+- "name"
+- "num"
+- "id"
+- "sign"
+depends-top-level:
+- "MenuInfo"
+- "Int32"
+- "String"
+- "NSObject"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "num"]
+- ["Ps9AnyObject", "sign"]
+- ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", "type"]
+- ["Ps9AnyObject", "uicode"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "id"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "num"]
+- ["Ps7CVarArg", "sign"]
+- ["Ps7CVarArg", "subscribe"]
+- ["Ps7CVarArg", "type"]
+- ["Ps7CVarArg", "uicode"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "num"]
+- ["Ps28CustomDebugStringConvertible", "sign"]
+- ["Ps28CustomDebugStringConvertible", "subscribe"]
+- ["Ps28CustomDebugStringConvertible", "type"]
+- ["Ps28CustomDebugStringConvertible", "uicode"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "num"]
+- ["Ps23CustomStringConvertible", "sign"]
+- ["Ps23CustomStringConvertible", "subscribe"]
+- ["Ps23CustomStringConvertible", "type"]
+- ["Ps23CustomStringConvertible", "uicode"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "num"]
+- ["Ps9Equatable", "sign"]
+- ["Ps9Equatable", "subscribe"]
+- ["Ps9Equatable", "type"]
+- ["Ps9Equatable", "uicode"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "num"]
+- ["Ps8Hashable", "sign"]
+- ["Ps8Hashable", "subscribe"]
+- ["Ps8Hashable", "type"]
+- ["Ps8Hashable", "uicode"]
+- ["Ps8Hashable", ""]
+- ["Vs5Int32", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["C9WeiBoNews8MenuInfo", "Int32"]
+- ["C9WeiBoNews8MenuInfo", "String"]
+- ["C9WeiBoNews8MenuInfo", "deinit"]
+- ["C9WeiBoNews8MenuInfo", "id"]
+- ["C9WeiBoNews8MenuInfo", "init"]
+- ["C9WeiBoNews8MenuInfo", "name"]
+- ["C9WeiBoNews8MenuInfo", "num"]
+- ["C9WeiBoNews8MenuInfo", "sign"]
+- ["C9WeiBoNews8MenuInfo", "subscribe"]
+- ["C9WeiBoNews8MenuInfo", "type"]
+- ["C9WeiBoNews8MenuInfo", "uicode"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Int32"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "num"]
+- ["CSo8NSObject", "sign"]
+- ["CSo8NSObject", "subscribe"]
+- ["CSo8NSObject", "type"]
+- ["CSo8NSObject", "uicode"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "num"]
+- ["PSo16NSObjectProtocol", "sign"]
+- ["PSo16NSObjectProtocol", "subscribe"]
+- ["PSo16NSObjectProtocol", "type"]
+- ["PSo16NSObjectProtocol", "uicode"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["P9Alamofire14URLConvertible", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "id"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "num"]
+- ["Ps9_Hashable", "sign"]
+- ["Ps9_Hashable", "subscribe"]
+- ["Ps9_Hashable", "type"]
+- ["Ps9_Hashable", "uicode"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Vs5Int32"
+- "Ps25LosslessStringConvertible"
+- "C9WeiBoNews8MenuInfo"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P9Alamofire14URLConvertible"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/WeiBoNews-Bridging-Header.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJPlayerControlView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDB.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabase.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMResultSet.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabasePool.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseQueue.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshNormalHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshStateHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshGifHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/NSBundle+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshConst.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshComponent.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/MMMaterialDesignSpinner.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIView+CustomControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/BubbleTransition.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMenuBar.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTContentView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIScrollView+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIColor+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicMacros.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTEnumType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicProtocol.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIViewController+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "c165902f302b58115243c991a14e4cc2"

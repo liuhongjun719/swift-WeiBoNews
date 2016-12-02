@@ -1,0 +1,809 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo8NSString", ""]
+- ["SS", ""]
+- ["Si", ""]
+- ["CSo8NSString", "getStringSize"]
+- ["SS", "getStringSizeWithWidth"]
+- ["SS", "getStringSize"]
+- ["Si", "getAttributeString"]
+- ["Si", "getBroadcastString"]
+provides-dynamic-lookup:
+- "getStringSize"
+depends-top-level:
+- !private "-"
+- "Int"
+- !private "<"
+- "NSString"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "/"
+- !private "=="
+- !private "UnicodeScalarType"
+- "CGFloat"
+- !private "UIFont"
+- !private ">="
+- "NSMutableAttributedString"
+- !private "NSFontAttributeName"
+- !private "NSDictionary"
+- !private "NSCopying"
+- "String"
+- !private "Dictionary"
+- "CGSize"
+- !private "AnyObject"
+- !private "Float"
+- !private "StringLiteralType"
+- !private "NSRange"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "NSDictionary"]
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "addAttributes"]
+- !private ["Ps9AnyObject", "boundingRect"]
+- ["Ps9AnyObject", "getStringSize"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "length"]
+- !private ["Ps9AnyObject", "systemFont"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "Float"]
+- !private ["Ps17BitwiseOperations", "NSFontAttributeName"]
+- !private ["Ps17BitwiseOperations", "NSMutableAttributedString"]
+- !private ["Ps17BitwiseOperations", "NSRange"]
+- !private ["Ps17BitwiseOperations", "NSString"]
+- !private ["Ps17BitwiseOperations", "String"]
+- !private ["Ps17BitwiseOperations", "UIFont"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- ["VSC6CGSize", "deinit"]
+- !private ["VSC6CGSize", "init"]
+- !private ["Ps7CVarArg", "CGSize"]
+- !private ["Ps7CVarArg", "Float"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NSDictionary"]
+- !private ["Ps7CVarArg", "NSFontAttributeName"]
+- !private ["Ps7CVarArg", "NSMutableAttributedString"]
+- !private ["Ps7CVarArg", "NSRange"]
+- !private ["Ps7CVarArg", "NSString"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "UIFont"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "addAttributes"]
+- !private ["Ps7CVarArg", "boundingRect"]
+- ["Ps7CVarArg", "getStringSize"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "length"]
+- !private ["Ps7CVarArg", "systemFont"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Comparable", "CGSize"]
+- !private ["Ps10Comparable", "Float"]
+- !private ["Ps10Comparable", "NSDictionary"]
+- !private ["Ps10Comparable", "NSFontAttributeName"]
+- !private ["Ps10Comparable", "NSMutableAttributedString"]
+- !private ["Ps10Comparable", "NSRange"]
+- !private ["Ps10Comparable", "NSString"]
+- !private ["Ps10Comparable", "String"]
+- !private ["Ps10Comparable", "UIFont"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "Float"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "NSFontAttributeName"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "NSMutableAttributedString"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "NSRange"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "NSString"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "String"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "UIFont"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "init"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "Float"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "NSFontAttributeName"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "NSMutableAttributedString"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "NSRange"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "NSString"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "String"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "UIFont"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "init"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "Float"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "NSFontAttributeName"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "NSMutableAttributedString"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "NSRange"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "NSString"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "String"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "UIFont"]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "init"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "Float"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "NSFontAttributeName"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "NSMutableAttributedString"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "NSRange"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "NSString"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "String"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "UIFont"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "init"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "Float"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "NSFontAttributeName"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "NSMutableAttributedString"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "NSRange"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "NSString"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "String"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "UIFont"]
+- !private ["P7SnapKit24ConstraintPriorityTarget", "init"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "Float"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "NSFontAttributeName"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "NSMutableAttributedString"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "NSRange"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "NSString"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "String"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "UIFont"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "addAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "boundingRect"]
+- ["Ps28CustomDebugStringConvertible", "getStringSize"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "length"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "systemFont"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "CGSize"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Float"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSDictionary"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSFontAttributeName"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSMutableAttributedString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSRange"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "String"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "UIFont"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "boundingRect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "length"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps17CustomReflectable", "CGSize"]
+- !private ["Ps17CustomReflectable", "Float"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "NSDictionary"]
+- !private ["Ps17CustomReflectable", "NSFontAttributeName"]
+- !private ["Ps17CustomReflectable", "NSMutableAttributedString"]
+- !private ["Ps17CustomReflectable", "NSRange"]
+- !private ["Ps17CustomReflectable", "NSString"]
+- !private ["Ps17CustomReflectable", "String"]
+- !private ["Ps17CustomReflectable", "UIFont"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "size"]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- !private ["Ps23CustomStringConvertible", "Float"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSDictionary"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSMutableAttributedString"]
+- !private ["Ps23CustomStringConvertible", "NSRange"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAttributes"]
+- !private ["Ps23CustomStringConvertible", "boundingRect"]
+- ["Ps23CustomStringConvertible", "getStringSize"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "length"]
+- !private ["Ps23CustomStringConvertible", "systemFont"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "Float"]
+- !private ["Ps9Equatable", "NSDictionary"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSMutableAttributedString"]
+- !private ["Ps9Equatable", "NSRange"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAttributes"]
+- !private ["Ps9Equatable", "boundingRect"]
+- ["Ps9Equatable", "getStringSize"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "length"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "systemFont"]
+- !private ["Ps9Equatable", "usesLineFragmentOrigin"]
+- !private ["Ps25ExpressibleByArrayLiteral", "usesLineFragmentOrigin"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "CGSize"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "NSDictionary"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "NSFontAttributeName"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "UIFont"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "boundingRect"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "length"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Float"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "NSFontAttributeName"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "NSMutableAttributedString"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "NSRange"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "NSString"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "String"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "UIFont"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "CGSize"]
+- !private ["Ps32ExpressibleByStringInterpolation", "NSDictionary"]
+- !private ["Ps32ExpressibleByStringInterpolation", "NSFontAttributeName"]
+- !private ["Ps32ExpressibleByStringInterpolation", "UIFont"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "CGSize"]
+- !private ["Ps26ExpressibleByStringLiteral", "NSDictionary"]
+- !private ["Ps26ExpressibleByStringLiteral", "NSFontAttributeName"]
+- !private ["Ps26ExpressibleByStringLiteral", "UIFont"]
+- !private ["Ps26ExpressibleByStringLiteral", "boundingRect"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "length"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "CGSize"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "NSDictionary"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "NSFontAttributeName"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "UIFont"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "boundingRect"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "length"]
+- ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGSize"]
+- !private ["Ps8Hashable", "Float"]
+- !private ["Ps8Hashable", "NSDictionary"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSMutableAttributedString"]
+- !private ["Ps8Hashable", "NSRange"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAttributes"]
+- !private ["Ps8Hashable", "boundingRect"]
+- ["Ps8Hashable", "getStringSize"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "length"]
+- !private ["Ps8Hashable", "systemFont"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Si", "Float"]
+- !private ["Si", "NSFontAttributeName"]
+- ["Si", "NSMutableAttributedString"]
+- !private ["Si", "NSRange"]
+- !private ["Si", "NSString"]
+- ["Si", "String"]
+- !private ["Si", "UIFont"]
+- ["Si", "deinit"]
+- ["Si", "getAttributeString"]
+- ["Si", "getBroadcastString"]
+- !private ["Ps7Integer", "Float"]
+- !private ["Ps7Integer", "NSFontAttributeName"]
+- !private ["Ps7Integer", "NSMutableAttributedString"]
+- !private ["Ps7Integer", "NSRange"]
+- !private ["Ps7Integer", "NSString"]
+- !private ["Ps7Integer", "String"]
+- !private ["Ps7Integer", "UIFont"]
+- !private ["Ps17IntegerArithmetic", "Float"]
+- !private ["Ps17IntegerArithmetic", "NSFontAttributeName"]
+- !private ["Ps17IntegerArithmetic", "NSMutableAttributedString"]
+- !private ["Ps17IntegerArithmetic", "NSRange"]
+- !private ["Ps17IntegerArithmetic", "NSString"]
+- !private ["Ps17IntegerArithmetic", "String"]
+- !private ["Ps17IntegerArithmetic", "UIFont"]
+- !private ["Ps25LosslessStringConvertible", "CGSize"]
+- !private ["Ps25LosslessStringConvertible", "NSDictionary"]
+- !private ["Ps25LosslessStringConvertible", "NSFontAttributeName"]
+- !private ["Ps25LosslessStringConvertible", "UIFont"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "CGSize"]
+- !private ["Ps10MirrorPath", "Float"]
+- !private ["Ps10MirrorPath", "NSDictionary"]
+- !private ["Ps10MirrorPath", "NSFontAttributeName"]
+- !private ["Ps10MirrorPath", "NSMutableAttributedString"]
+- !private ["Ps10MirrorPath", "NSRange"]
+- !private ["Ps10MirrorPath", "NSString"]
+- !private ["Ps10MirrorPath", "String"]
+- !private ["Ps10MirrorPath", "UIFont"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo18NSAttributedString", "addAttributes"]
+- !private ["CSo18NSAttributedString", "init"]
+- !private ["PSo8NSCoding", "CGSize"]
+- !private ["PSo8NSCoding", "NSDictionary"]
+- !private ["PSo8NSCoding", "NSFontAttributeName"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "addAttributes"]
+- !private ["PSo8NSCoding", "boundingRect"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo9NSCopying", "CGSize"]
+- !private ["PSo9NSCopying", "NSDictionary"]
+- !private ["PSo9NSCopying", "NSFontAttributeName"]
+- !private ["PSo9NSCopying", "UIFont"]
+- !private ["PSo9NSCopying", "addAttributes"]
+- !private ["PSo9NSCopying", "boundingRect"]
+- ["PSo9NSCopying", "deinit"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "systemFont"]
+- ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "init"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["CSo25NSMutableAttributedString", "addAttributes"]
+- ["CSo25NSMutableAttributedString", "deinit"]
+- !private ["CSo25NSMutableAttributedString", "init"]
+- !private ["PSo16NSMutableCopying", "CGSize"]
+- !private ["PSo16NSMutableCopying", "NSDictionary"]
+- !private ["PSo16NSMutableCopying", "NSFontAttributeName"]
+- !private ["PSo16NSMutableCopying", "UIFont"]
+- !private ["PSo16NSMutableCopying", "addAttributes"]
+- !private ["PSo16NSMutableCopying", "boundingRect"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "NSCopying"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "addAttributes"]
+- !private ["CSo8NSObject", "boundingRect"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "getStringSize"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "systemFont"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "NSDictionary"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "addAttributes"]
+- !private ["PSo16NSObjectProtocol", "boundingRect"]
+- ["PSo16NSObjectProtocol", "getStringSize"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "systemFont"]
+- !private ["PSo14NSSecureCoding", "CGSize"]
+- !private ["PSo14NSSecureCoding", "NSDictionary"]
+- !private ["PSo14NSSecureCoding", "NSFontAttributeName"]
+- !private ["PSo14NSSecureCoding", "UIFont"]
+- !private ["PSo14NSSecureCoding", "addAttributes"]
+- !private ["PSo14NSSecureCoding", "boundingRect"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["CSo8NSString", "AnyObject"]
+- ["CSo8NSString", "CGFloat"]
+- ["CSo8NSString", "CGSize"]
+- !private ["CSo8NSString", "NSCopying"]
+- !private ["CSo8NSString", "NSDictionary"]
+- !private ["CSo8NSString", "NSFontAttributeName"]
+- !private ["CSo8NSString", "NSString"]
+- !private ["CSo8NSString", "String"]
+- !private ["CSo8NSString", "UIFont"]
+- !private ["CSo8NSString", "boundingRect"]
+- ["CSo8NSString", "deinit"]
+- ["CSo8NSString", "getStringSize"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "length"]
+- ["VSC22NSStringDrawingOptions", "deinit"]
+- !private ["VSC22NSStringDrawingOptions", "usesLineFragmentOrigin"]
+- !private ["Ps9OptionSet", "usesLineFragmentOrigin"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "usesLineFragmentOrigin"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps10SetAlgebra", "usesLineFragmentOrigin"]
+- !private ["Ps13SignedInteger", "Float"]
+- !private ["Ps13SignedInteger", "NSFontAttributeName"]
+- !private ["Ps13SignedInteger", "NSMutableAttributedString"]
+- !private ["Ps13SignedInteger", "NSRange"]
+- !private ["Ps13SignedInteger", "NSString"]
+- !private ["Ps13SignedInteger", "String"]
+- !private ["Ps13SignedInteger", "UIFont"]
+- !private ["Ps12SignedNumber", "Float"]
+- !private ["Ps12SignedNumber", "NSFontAttributeName"]
+- !private ["Ps12SignedNumber", "NSMutableAttributedString"]
+- !private ["Ps12SignedNumber", "NSRange"]
+- !private ["Ps12SignedNumber", "NSString"]
+- !private ["Ps12SignedNumber", "String"]
+- !private ["Ps12SignedNumber", "UIFont"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "Float"]
+- !private ["Ps10Strideable", "NSFontAttributeName"]
+- !private ["Ps10Strideable", "NSMutableAttributedString"]
+- !private ["Ps10Strideable", "NSRange"]
+- !private ["Ps10Strideable", "NSString"]
+- !private ["Ps10Strideable", "String"]
+- !private ["Ps10Strideable", "UIFont"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "AnyObject"]
+- ["SS", "CGFloat"]
+- ["SS", "CGSize"]
+- !private ["SS", "NSCopying"]
+- !private ["SS", "NSDictionary"]
+- !private ["SS", "NSFontAttributeName"]
+- !private ["SS", "NSString"]
+- !private ["SS", "String"]
+- !private ["SS", "UIFont"]
+- ["SS", "deinit"]
+- ["SS", "getStringSize"]
+- ["SS", "getStringSizeWithWidth"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "CGSize"]
+- !private ["Ps16TextOutputStream", "NSDictionary"]
+- !private ["Ps16TextOutputStream", "NSFontAttributeName"]
+- !private ["Ps16TextOutputStream", "UIFont"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "CGSize"]
+- !private ["Ps20TextOutputStreamable", "NSDictionary"]
+- !private ["Ps20TextOutputStreamable", "NSFontAttributeName"]
+- !private ["Ps20TextOutputStreamable", "UIFont"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["CSo6UIFont", "deinit"]
+- !private ["CSo6UIFont", "systemFont"]
+- !private ["P9Alamofire14URLConvertible", "CGSize"]
+- !private ["P9Alamofire14URLConvertible", "NSDictionary"]
+- !private ["P9Alamofire14URLConvertible", "NSFontAttributeName"]
+- !private ["P9Alamofire14URLConvertible", "UIFont"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "CGSize"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "NSDictionary"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "NSFontAttributeName"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "UIFont"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Float"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "NSFontAttributeName"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "NSMutableAttributedString"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "NSRange"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "NSString"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "String"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "UIFont"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "CGSize"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "NSDictionary"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "NSFontAttributeName"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "UIFont"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "CGSize"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "NSDictionary"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "NSFontAttributeName"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "UIFont"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "CGSize"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "NSDictionary"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "NSFontAttributeName"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "UIFont"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "CGSize"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "NSDictionary"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "NSFontAttributeName"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "UIFont"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "boundingRect"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "length"]
+- !private ["Ps9_Hashable", "CGSize"]
+- !private ["Ps9_Hashable", "Float"]
+- !private ["Ps9_Hashable", "NSDictionary"]
+- !private ["Ps9_Hashable", "NSFontAttributeName"]
+- !private ["Ps9_Hashable", "NSMutableAttributedString"]
+- !private ["Ps9_Hashable", "NSRange"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "UIFont"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addAttributes"]
+- !private ["Ps9_Hashable", "boundingRect"]
+- ["Ps9_Hashable", "getStringSize"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "length"]
+- !private ["Ps9_Hashable", "systemFont"]
+- !private ["Ps14_Incrementable", "Float"]
+- !private ["Ps14_Incrementable", "NSFontAttributeName"]
+- !private ["Ps14_Incrementable", "NSMutableAttributedString"]
+- !private ["Ps14_Incrementable", "NSRange"]
+- !private ["Ps14_Incrementable", "NSString"]
+- !private ["Ps14_Incrementable", "String"]
+- !private ["Ps14_Incrementable", "UIFont"]
+- !private ["Ps8_Integer", "Float"]
+- !private ["Ps8_Integer", "NSFontAttributeName"]
+- !private ["Ps8_Integer", "NSMutableAttributedString"]
+- !private ["Ps8_Integer", "NSRange"]
+- !private ["Ps8_Integer", "NSString"]
+- !private ["Ps8_Integer", "String"]
+- !private ["Ps8_Integer", "UIFont"]
+- !private ["Ps18_IntegerArithmetic", "Float"]
+- !private ["Ps18_IntegerArithmetic", "NSFontAttributeName"]
+- !private ["Ps18_IntegerArithmetic", "NSMutableAttributedString"]
+- !private ["Ps18_IntegerArithmetic", "NSRange"]
+- !private ["Ps18_IntegerArithmetic", "NSString"]
+- !private ["Ps18_IntegerArithmetic", "String"]
+- !private ["Ps18_IntegerArithmetic", "UIFont"]
+- ["VSC8_NSRange", "deinit"]
+- !private ["VSC8_NSRange", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "CGSize"]
+- !private ["Ps21_ObjectiveCBridgeable", "Float"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSDictionary"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSFontAttributeName"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSMutableAttributedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSRange"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSString"]
+- !private ["Ps21_ObjectiveCBridgeable", "String"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIFont"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Float"]
+- !private ["Ps14_SignedInteger", "NSFontAttributeName"]
+- !private ["Ps14_SignedInteger", "NSMutableAttributedString"]
+- !private ["Ps14_SignedInteger", "NSRange"]
+- !private ["Ps14_SignedInteger", "NSString"]
+- !private ["Ps14_SignedInteger", "String"]
+- !private ["Ps14_SignedInteger", "UIFont"]
+- !private ["Ps11_Strideable", "Float"]
+- !private ["Ps11_Strideable", "NSFontAttributeName"]
+- !private ["Ps11_Strideable", "NSMutableAttributedString"]
+- !private ["Ps11_Strideable", "NSRange"]
+- !private ["Ps11_Strideable", "NSString"]
+- !private ["Ps11_Strideable", "String"]
+- !private ["Ps11_Strideable", "UIFont"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P7SnapKit24ConstraintConstantTarget"
+- !private "P7SnapKit21ConstraintInsetTarget"
+- !private "P7SnapKit26ConstraintMultiplierTarget"
+- !private "P7SnapKit22ConstraintOffsetTarget"
+- !private "P7SnapKit24ConstraintPriorityTarget"
+- !private "P7SnapKit25ConstraintRelatableTarget"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "CSo18NSAttributedString"
+- !private "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- "CSo25NSMutableAttributedString"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VSC22NSStringDrawingOptions"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "CSo6UIFont"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "VSC8_NSRange"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/WeiBoNews-Bridging-Header.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJPlayerControlView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDB.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabase.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMResultSet.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabasePool.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseQueue.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshNormalHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshStateHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshGifHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/NSBundle+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshConst.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshComponent.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/MMMaterialDesignSpinner.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIView+CustomControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/BubbleTransition.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMenuBar.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTContentView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIScrollView+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIColor+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicMacros.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTEnumType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicProtocol.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIViewController+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "2468daea515cbad27ba011b3d1e4b5f6"

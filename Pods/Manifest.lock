@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - AlamofireObjectMapper (4.0.0):
+    - Alamofire (~> 4.0)
+    - ObjectMapper (~> 2.0)
+  - BubbleTransition (2.0.0)
+  - DateTools (1.7.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - ObjectMapper (2.2.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.0.2)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - YLMoment (0.6.0)
+  - ZFPlayer (2.0.3):
+    - Masonry
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.0)
+  - AlamofireObjectMapper (~> 4.0)
+  - BubbleTransition (~> 2.0.0)
+  - DateTools
+  - FMDB
+  - MJRefresh
+  - ObjectMapper
+  - SDWebImage
+  - SnapKit (~> 3.0)
+  - VTMagic
+  - YLMoment
+  - ZFPlayer
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  AlamofireObjectMapper: 9faa3ce5a240efda1b209009a2d6e1e949227abc
+  BubbleTransition: bdb9d71993b8d3513008e2dda6bada1ddad25d4f
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ObjectMapper: 4060d739febae11ab0c6af8d786f98667c82e1bd
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  YLMoment: a342e85269150756105901c4b701070154f82c16
+  ZFPlayer: ff74ca27faa41e8f6df42ea038c951353246f97f
+
+PODFILE CHECKSUM: f1c2c74795e2bcb49d46935f1c7076b6c1bd43b8
+
+COCOAPODS: 1.1.0.beta.2

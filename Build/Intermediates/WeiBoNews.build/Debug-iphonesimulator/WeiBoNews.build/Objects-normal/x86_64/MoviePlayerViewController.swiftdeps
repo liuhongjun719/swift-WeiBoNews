@@ -1,0 +1,1300 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MoviePlayerViewController"
+provides-nominal:
+- "C9WeiBoNews25MoviePlayerViewController"
+provides-member:
+- ["C9WeiBoNews25MoviePlayerViewController", ""]
+provides-dynamic-lookup:
+- "viewWillDisappear"
+- "playerModel"
+- "controlView"
+- "viewDidAppear"
+- "viewWillAppear"
+- "hj_playerBackAction"
+- "playerView"
+- "videoUrl"
+- "sourceFrame"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- "URL"
+- "NSDictionary"
+- "AssignmentPrecedence"
+- "UIViewController"
+- "HJFullScreenPlayerView"
+- "HJPlayerDelegate"
+- !private "print"
+- "MoviePlayerViewController"
+- "Bool"
+- !private "UIView"
+- !private "BooleanLiteralType"
+- !private "NSNotification"
+- "HJFullScreenPlayerControlView"
+- !private "StringLiteralType"
+- !private "NotificationCenter"
+- "ZFPlayerModel"
+depends-member:
+- !private ["Ps9AnyObject", "HJFullScreenPlayerControlView"]
+- !private ["Ps9AnyObject", "HJFullScreenPlayerView"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "ZFPlayerModel"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "animate"]
+- !private ["Ps9AnyObject", "autoPlayTheVideo"]
+- !private ["Ps9AnyObject", "bottom"]
+- ["Ps9AnyObject", "controlView"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "equalTo"]
+- !private ["Ps9AnyObject", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps9AnyObject", "hasPreviewView"]
+- ["Ps9AnyObject", "hj_playerBackAction"]
+- ["Ps9AnyObject", "hj_playerDownload"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layoutIfNeeded"]
+- !private ["Ps9AnyObject", "leading"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "pause"]
+- !private ["Ps9AnyObject", "playerLayerGravity"]
+- ["Ps9AnyObject", "playerModel"]
+- ["Ps9AnyObject", "playerView"]
+- !private ["Ps9AnyObject", "popViewController"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "setNavigationBarHidden"]
+- !private ["Ps9AnyObject", "setNeedsUpdateConstraints"]
+- !private ["Ps9AnyObject", "snp"]
+- ["Ps9AnyObject", "sourceFrame"]
+- !private ["Ps9AnyObject", "title"]
+- !private ["Ps9AnyObject", "top"]
+- !private ["Ps9AnyObject", "trailing"]
+- !private ["Ps9AnyObject", "updateConstraintsIfNeeded"]
+- !private ["Ps9AnyObject", "videoURL"]
+- ["Ps9AnyObject", "videoUrl"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidAppear"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", "viewWillDisappear"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "animate"]
+- !private ["PSo15CALayerDelegate", "autoPlayTheVideo"]
+- !private ["PSo15CALayerDelegate", "controlView"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo15CALayerDelegate", "hasPreviewView"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layoutIfNeeded"]
+- !private ["PSo15CALayerDelegate", "pause"]
+- !private ["PSo15CALayerDelegate", "playerLayerGravity"]
+- !private ["PSo15CALayerDelegate", "playerModel"]
+- !private ["PSo15CALayerDelegate", "setNeedsUpdateConstraints"]
+- !private ["PSo15CALayerDelegate", "snp"]
+- !private ["PSo15CALayerDelegate", "updateConstraintsIfNeeded"]
+- !private ["Ps7CVarArg", "HJFullScreenPlayerControlView"]
+- !private ["Ps7CVarArg", "HJFullScreenPlayerView"]
+- !private ["Ps7CVarArg", "NSNotification"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "ZFPlayerModel"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "animate"]
+- !private ["Ps7CVarArg", "autoPlayTheVideo"]
+- ["Ps7CVarArg", "controlView"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps7CVarArg", "hasPreviewView"]
+- ["Ps7CVarArg", "hj_playerBackAction"]
+- ["Ps7CVarArg", "hj_playerDownload"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layoutIfNeeded"]
+- !private ["Ps7CVarArg", "navigationController"]
+- !private ["Ps7CVarArg", "pause"]
+- !private ["Ps7CVarArg", "playerLayerGravity"]
+- ["Ps7CVarArg", "playerModel"]
+- ["Ps7CVarArg", "playerView"]
+- !private ["Ps7CVarArg", "popViewController"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "setNavigationBarHidden"]
+- !private ["Ps7CVarArg", "setNeedsUpdateConstraints"]
+- !private ["Ps7CVarArg", "snp"]
+- ["Ps7CVarArg", "sourceFrame"]
+- !private ["Ps7CVarArg", "title"]
+- !private ["Ps7CVarArg", "updateConstraintsIfNeeded"]
+- !private ["Ps7CVarArg", "videoURL"]
+- ["Ps7CVarArg", "videoUrl"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidAppear"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "viewWillAppear"]
+- ["Ps7CVarArg", "viewWillDisappear"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P7SnapKit23ConstraintAttributesDSL", "updateConstraints"]
+- !private ["P7SnapKit13ConstraintDSL", "updateConstraints"]
+- !private ["C7SnapKit15ConstraintMaker", "deinit"]
+- !private ["C7SnapKit15ConstraintMaker", "top"]
+- !private ["C7SnapKit23ConstraintMakerEditable", "deinit"]
+- !private ["C7SnapKit25ConstraintMakerExtendable", "bottom"]
+- !private ["C7SnapKit25ConstraintMakerExtendable", "deinit"]
+- !private ["C7SnapKit25ConstraintMakerExtendable", "equalTo"]
+- !private ["C7SnapKit25ConstraintMakerExtendable", "leading"]
+- !private ["C7SnapKit25ConstraintMakerExtendable", "trailing"]
+- !private ["C7SnapKit24ConstraintMakerRelatable", "bottom"]
+- !private ["C7SnapKit24ConstraintMakerRelatable", "equalTo"]
+- !private ["C7SnapKit24ConstraintMakerRelatable", "leading"]
+- !private ["C7SnapKit24ConstraintMakerRelatable", "trailing"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "addSubview"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "animate"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "autoPlayTheVideo"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "controlView"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "delegate"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "fullScreenBtnDidClickedBlock"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "hasPreviewView"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "init"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "layoutIfNeeded"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "pause"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "playerLayerGravity"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "playerModel"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "setNeedsUpdateConstraints"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "snp"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "updateConstraintsIfNeeded"]
+- !private ["V7SnapKit17ConstraintViewDSL", "deinit"]
+- !private ["V7SnapKit17ConstraintViewDSL", "updateConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "HJFullScreenPlayerControlView"]
+- !private ["Ps28CustomDebugStringConvertible", "HJFullScreenPlayerView"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "ZFPlayerModel"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "animate"]
+- !private ["Ps28CustomDebugStringConvertible", "autoPlayTheVideo"]
+- ["Ps28CustomDebugStringConvertible", "controlView"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "hasPreviewView"]
+- ["Ps28CustomDebugStringConvertible", "hj_playerBackAction"]
+- ["Ps28CustomDebugStringConvertible", "hj_playerDownload"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layoutIfNeeded"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "pause"]
+- !private ["Ps28CustomDebugStringConvertible", "playerLayerGravity"]
+- ["Ps28CustomDebugStringConvertible", "playerModel"]
+- ["Ps28CustomDebugStringConvertible", "playerView"]
+- !private ["Ps28CustomDebugStringConvertible", "popViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "setNavigationBarHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "setNeedsUpdateConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "snp"]
+- ["Ps28CustomDebugStringConvertible", "sourceFrame"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- !private ["Ps28CustomDebugStringConvertible", "updateConstraintsIfNeeded"]
+- !private ["Ps28CustomDebugStringConvertible", "videoURL"]
+- ["Ps28CustomDebugStringConvertible", "videoUrl"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewWillDisappear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "HJFullScreenPlayerControlView"]
+- !private ["Ps23CustomStringConvertible", "HJFullScreenPlayerView"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "ZFPlayerModel"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "animate"]
+- !private ["Ps23CustomStringConvertible", "autoPlayTheVideo"]
+- ["Ps23CustomStringConvertible", "controlView"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps23CustomStringConvertible", "hasPreviewView"]
+- ["Ps23CustomStringConvertible", "hj_playerBackAction"]
+- ["Ps23CustomStringConvertible", "hj_playerDownload"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layoutIfNeeded"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- !private ["Ps23CustomStringConvertible", "pause"]
+- !private ["Ps23CustomStringConvertible", "playerLayerGravity"]
+- ["Ps23CustomStringConvertible", "playerModel"]
+- ["Ps23CustomStringConvertible", "playerView"]
+- !private ["Ps23CustomStringConvertible", "popViewController"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "setNavigationBarHidden"]
+- !private ["Ps23CustomStringConvertible", "setNeedsUpdateConstraints"]
+- !private ["Ps23CustomStringConvertible", "snp"]
+- ["Ps23CustomStringConvertible", "sourceFrame"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- !private ["Ps23CustomStringConvertible", "updateConstraintsIfNeeded"]
+- !private ["Ps23CustomStringConvertible", "videoURL"]
+- ["Ps23CustomStringConvertible", "videoUrl"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidAppear"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", "viewWillDisappear"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "HJFullScreenPlayerControlView"]
+- !private ["Ps9Equatable", "HJFullScreenPlayerView"]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "ZFPlayerModel"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "animate"]
+- !private ["Ps9Equatable", "autoPlayTheVideo"]
+- ["Ps9Equatable", "controlView"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps9Equatable", "hasPreviewView"]
+- ["Ps9Equatable", "hj_playerBackAction"]
+- ["Ps9Equatable", "hj_playerDownload"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layoutIfNeeded"]
+- !private ["Ps9Equatable", "navigationController"]
+- !private ["Ps9Equatable", "pause"]
+- !private ["Ps9Equatable", "playerLayerGravity"]
+- ["Ps9Equatable", "playerModel"]
+- ["Ps9Equatable", "playerView"]
+- !private ["Ps9Equatable", "popViewController"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "resize"]
+- !private ["Ps9Equatable", "setNavigationBarHidden"]
+- !private ["Ps9Equatable", "setNeedsUpdateConstraints"]
+- !private ["Ps9Equatable", "snp"]
+- ["Ps9Equatable", "sourceFrame"]
+- !private ["Ps9Equatable", "title"]
+- !private ["Ps9Equatable", "updateConstraintsIfNeeded"]
+- !private ["Ps9Equatable", "videoURL"]
+- ["Ps9Equatable", "videoUrl"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidAppear"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", "viewWillDisappear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["CSo29HJFullScreenPlayerControlView", "deinit"]
+- !private ["CSo29HJFullScreenPlayerControlView", "fullScreenBtnDidClickedBlock"]
+- !private ["CSo29HJFullScreenPlayerControlView", "init"]
+- !private ["CSo22HJFullScreenPlayerView", "autoPlayTheVideo"]
+- !private ["CSo22HJFullScreenPlayerView", "controlView"]
+- ["CSo22HJFullScreenPlayerView", "deinit"]
+- !private ["CSo22HJFullScreenPlayerView", "delegate"]
+- !private ["CSo22HJFullScreenPlayerView", "hasPreviewView"]
+- !private ["CSo22HJFullScreenPlayerView", "init"]
+- !private ["CSo22HJFullScreenPlayerView", "layoutIfNeeded"]
+- !private ["CSo22HJFullScreenPlayerView", "pause"]
+- !private ["CSo22HJFullScreenPlayerView", "playerLayerGravity"]
+- !private ["CSo22HJFullScreenPlayerView", "playerModel"]
+- !private ["CSo22HJFullScreenPlayerView", "setNeedsUpdateConstraints"]
+- !private ["CSo22HJFullScreenPlayerView", "snp"]
+- !private ["CSo22HJFullScreenPlayerView", "updateConstraintsIfNeeded"]
+- !private ["PSo16HJPlayerDelegate", "HJFullScreenPlayerControlView"]
+- !private ["PSo16HJPlayerDelegate", "HJFullScreenPlayerView"]
+- !private ["PSo16HJPlayerDelegate", "NSNotification"]
+- !private ["PSo16HJPlayerDelegate", "NotificationCenter"]
+- !private ["PSo16HJPlayerDelegate", "UIView"]
+- !private ["PSo16HJPlayerDelegate", "ZFPlayerModel"]
+- !private ["PSo16HJPlayerDelegate", "controlView"]
+- ["PSo16HJPlayerDelegate", "hj_playerBackAction"]
+- ["PSo16HJPlayerDelegate", "hj_playerDownload"]
+- !private ["PSo16HJPlayerDelegate", "navigationController"]
+- !private ["PSo16HJPlayerDelegate", "playerView"]
+- !private ["PSo16HJPlayerDelegate", "print"]
+- !private ["PSo16HJPlayerDelegate", "sourceFrame"]
+- !private ["PSo16HJPlayerDelegate", "videoUrl"]
+- !private ["PSo16HJPlayerDelegate", "view"]
+- ["PSo16HJPlayerDelegate", ""]
+- !private ["Ps8Hashable", "HJFullScreenPlayerControlView"]
+- !private ["Ps8Hashable", "HJFullScreenPlayerView"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "ZFPlayerModel"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "animate"]
+- !private ["Ps8Hashable", "autoPlayTheVideo"]
+- ["Ps8Hashable", "controlView"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps8Hashable", "hasPreviewView"]
+- ["Ps8Hashable", "hj_playerBackAction"]
+- ["Ps8Hashable", "hj_playerDownload"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layoutIfNeeded"]
+- !private ["Ps8Hashable", "navigationController"]
+- !private ["Ps8Hashable", "pause"]
+- !private ["Ps8Hashable", "playerLayerGravity"]
+- ["Ps8Hashable", "playerModel"]
+- ["Ps8Hashable", "playerView"]
+- !private ["Ps8Hashable", "popViewController"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "resize"]
+- !private ["Ps8Hashable", "setNavigationBarHidden"]
+- !private ["Ps8Hashable", "setNeedsUpdateConstraints"]
+- !private ["Ps8Hashable", "snp"]
+- ["Ps8Hashable", "sourceFrame"]
+- !private ["Ps8Hashable", "title"]
+- !private ["Ps8Hashable", "updateConstraintsIfNeeded"]
+- !private ["Ps8Hashable", "videoURL"]
+- ["Ps8Hashable", "videoUrl"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidAppear"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", "viewWillDisappear"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["C9WeiBoNews25MoviePlayerViewController", "Bool"]
+- ["C9WeiBoNews25MoviePlayerViewController", "HJFullScreenPlayerControlView"]
+- ["C9WeiBoNews25MoviePlayerViewController", "HJFullScreenPlayerView"]
+- ["C9WeiBoNews25MoviePlayerViewController", "NSDictionary"]
+- !private ["C9WeiBoNews25MoviePlayerViewController", "NSNotification"]
+- !private ["C9WeiBoNews25MoviePlayerViewController", "NotificationCenter"]
+- !private ["C9WeiBoNews25MoviePlayerViewController", "UIView"]
+- ["C9WeiBoNews25MoviePlayerViewController", "URL"]
+- ["C9WeiBoNews25MoviePlayerViewController", "ZFPlayerModel"]
+- ["C9WeiBoNews25MoviePlayerViewController", "controlView"]
+- ["C9WeiBoNews25MoviePlayerViewController", "deinit"]
+- ["C9WeiBoNews25MoviePlayerViewController", "didReceiveMemoryWarning"]
+- ["C9WeiBoNews25MoviePlayerViewController", "hj_playerBackAction"]
+- ["C9WeiBoNews25MoviePlayerViewController", "hj_playerDownload"]
+- ["C9WeiBoNews25MoviePlayerViewController", "init"]
+- !private ["C9WeiBoNews25MoviePlayerViewController", "navigationController"]
+- ["C9WeiBoNews25MoviePlayerViewController", "playerModel"]
+- ["C9WeiBoNews25MoviePlayerViewController", "playerView"]
+- !private ["C9WeiBoNews25MoviePlayerViewController", "print"]
+- ["C9WeiBoNews25MoviePlayerViewController", "sourceFrame"]
+- ["C9WeiBoNews25MoviePlayerViewController", "videoUrl"]
+- !private ["C9WeiBoNews25MoviePlayerViewController", "view"]
+- ["C9WeiBoNews25MoviePlayerViewController", "viewDidAppear"]
+- ["C9WeiBoNews25MoviePlayerViewController", "viewDidLoad"]
+- ["C9WeiBoNews25MoviePlayerViewController", "viewWillAppear"]
+- ["C9WeiBoNews25MoviePlayerViewController", "viewWillDisappear"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "HJFullScreenPlayerControlView"]
+- !private ["PSo8NSCoding", "HJFullScreenPlayerView"]
+- !private ["PSo8NSCoding", "NSNotification"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "NotificationCenter"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "ZFPlayerModel"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "animate"]
+- !private ["PSo8NSCoding", "autoPlayTheVideo"]
+- ["PSo8NSCoding", "controlView"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo8NSCoding", "hasPreviewView"]
+- ["PSo8NSCoding", "hj_playerBackAction"]
+- ["PSo8NSCoding", "hj_playerDownload"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layoutIfNeeded"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "pause"]
+- !private ["PSo8NSCoding", "playerLayerGravity"]
+- ["PSo8NSCoding", "playerModel"]
+- ["PSo8NSCoding", "playerView"]
+- !private ["PSo8NSCoding", "popViewController"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "setNavigationBarHidden"]
+- !private ["PSo8NSCoding", "setNeedsUpdateConstraints"]
+- !private ["PSo8NSCoding", "snp"]
+- ["PSo8NSCoding", "sourceFrame"]
+- !private ["PSo8NSCoding", "updateConstraintsIfNeeded"]
+- ["PSo8NSCoding", "videoUrl"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", "viewWillDisappear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Name"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "HJFullScreenPlayerControlView"]
+- !private ["PSo26NSExtensionRequestHandling", "HJFullScreenPlayerView"]
+- !private ["PSo26NSExtensionRequestHandling", "NSNotification"]
+- !private ["PSo26NSExtensionRequestHandling", "NotificationCenter"]
+- !private ["PSo26NSExtensionRequestHandling", "UIView"]
+- !private ["PSo26NSExtensionRequestHandling", "ZFPlayerModel"]
+- ["PSo26NSExtensionRequestHandling", "controlView"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "hj_playerBackAction"]
+- ["PSo26NSExtensionRequestHandling", "hj_playerDownload"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "playerModel"]
+- ["PSo26NSExtensionRequestHandling", "playerView"]
+- !private ["PSo26NSExtensionRequestHandling", "popViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "setNavigationBarHidden"]
+- ["PSo26NSExtensionRequestHandling", "sourceFrame"]
+- ["PSo26NSExtensionRequestHandling", "videoUrl"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewWillDisappear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo14NSNotification", "Name"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "HJFullScreenPlayerControlView"]
+- ["CSo8NSObject", "HJFullScreenPlayerView"]
+- ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- !private ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "ZFPlayerModel"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "animate"]
+- !private ["CSo8NSObject", "autoPlayTheVideo"]
+- ["CSo8NSObject", "controlView"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "fullScreenBtnDidClickedBlock"]
+- !private ["CSo8NSObject", "hasPreviewView"]
+- ["CSo8NSObject", "hj_playerBackAction"]
+- ["CSo8NSObject", "hj_playerDownload"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layoutIfNeeded"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "pause"]
+- !private ["CSo8NSObject", "playerLayerGravity"]
+- ["CSo8NSObject", "playerModel"]
+- ["CSo8NSObject", "playerView"]
+- !private ["CSo8NSObject", "popViewController"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "setNavigationBarHidden"]
+- !private ["CSo8NSObject", "setNeedsUpdateConstraints"]
+- !private ["CSo8NSObject", "snp"]
+- ["CSo8NSObject", "sourceFrame"]
+- !private ["CSo8NSObject", "title"]
+- !private ["CSo8NSObject", "updateConstraintsIfNeeded"]
+- !private ["CSo8NSObject", "videoURL"]
+- ["CSo8NSObject", "videoUrl"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["CSo8NSObject", "viewWillDisappear"]
+- !private ["PSo16NSObjectProtocol", "HJFullScreenPlayerControlView"]
+- !private ["PSo16NSObjectProtocol", "HJFullScreenPlayerView"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "ZFPlayerModel"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "animate"]
+- !private ["PSo16NSObjectProtocol", "autoPlayTheVideo"]
+- ["PSo16NSObjectProtocol", "controlView"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo16NSObjectProtocol", "hasPreviewView"]
+- ["PSo16NSObjectProtocol", "hj_playerBackAction"]
+- ["PSo16NSObjectProtocol", "hj_playerDownload"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layoutIfNeeded"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "pause"]
+- !private ["PSo16NSObjectProtocol", "playerLayerGravity"]
+- ["PSo16NSObjectProtocol", "playerModel"]
+- ["PSo16NSObjectProtocol", "playerView"]
+- !private ["PSo16NSObjectProtocol", "popViewController"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "setNavigationBarHidden"]
+- !private ["PSo16NSObjectProtocol", "setNeedsUpdateConstraints"]
+- !private ["PSo16NSObjectProtocol", "snp"]
+- ["PSo16NSObjectProtocol", "sourceFrame"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- !private ["PSo16NSObjectProtocol", "updateConstraintsIfNeeded"]
+- !private ["PSo16NSObjectProtocol", "videoURL"]
+- ["PSo16NSObjectProtocol", "videoUrl"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "viewWillDisappear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "post"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "resize"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "animate"]
+- !private ["PSo29UIAccessibilityIdentification", "autoPlayTheVideo"]
+- !private ["PSo29UIAccessibilityIdentification", "controlView"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo29UIAccessibilityIdentification", "hasPreviewView"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutIfNeeded"]
+- !private ["PSo29UIAccessibilityIdentification", "pause"]
+- !private ["PSo29UIAccessibilityIdentification", "playerLayerGravity"]
+- !private ["PSo29UIAccessibilityIdentification", "playerModel"]
+- !private ["PSo29UIAccessibilityIdentification", "setNeedsUpdateConstraints"]
+- !private ["PSo29UIAccessibilityIdentification", "snp"]
+- !private ["PSo29UIAccessibilityIdentification", "updateConstraintsIfNeeded"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "animate"]
+- !private ["PSo12UIAppearance", "autoPlayTheVideo"]
+- !private ["PSo12UIAppearance", "controlView"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo12UIAppearance", "hasPreviewView"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layoutIfNeeded"]
+- !private ["PSo12UIAppearance", "pause"]
+- !private ["PSo12UIAppearance", "playerLayerGravity"]
+- !private ["PSo12UIAppearance", "playerModel"]
+- !private ["PSo12UIAppearance", "setNeedsUpdateConstraints"]
+- !private ["PSo12UIAppearance", "snp"]
+- !private ["PSo12UIAppearance", "updateConstraintsIfNeeded"]
+- !private ["PSo21UIAppearanceContainer", "HJFullScreenPlayerControlView"]
+- !private ["PSo21UIAppearanceContainer", "HJFullScreenPlayerView"]
+- !private ["PSo21UIAppearanceContainer", "NSNotification"]
+- !private ["PSo21UIAppearanceContainer", "NotificationCenter"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "ZFPlayerModel"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "animate"]
+- !private ["PSo21UIAppearanceContainer", "autoPlayTheVideo"]
+- ["PSo21UIAppearanceContainer", "controlView"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo21UIAppearanceContainer", "hasPreviewView"]
+- ["PSo21UIAppearanceContainer", "hj_playerBackAction"]
+- ["PSo21UIAppearanceContainer", "hj_playerDownload"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layoutIfNeeded"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "pause"]
+- !private ["PSo21UIAppearanceContainer", "playerLayerGravity"]
+- ["PSo21UIAppearanceContainer", "playerModel"]
+- ["PSo21UIAppearanceContainer", "playerView"]
+- !private ["PSo21UIAppearanceContainer", "popViewController"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "setNavigationBarHidden"]
+- !private ["PSo21UIAppearanceContainer", "setNeedsUpdateConstraints"]
+- !private ["PSo21UIAppearanceContainer", "snp"]
+- ["PSo21UIAppearanceContainer", "sourceFrame"]
+- !private ["PSo21UIAppearanceContainer", "updateConstraintsIfNeeded"]
+- ["PSo21UIAppearanceContainer", "videoUrl"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", "viewWillDisappear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "HJFullScreenPlayerControlView"]
+- !private ["PSo18UIContentContainer", "HJFullScreenPlayerView"]
+- !private ["PSo18UIContentContainer", "NSNotification"]
+- !private ["PSo18UIContentContainer", "NotificationCenter"]
+- !private ["PSo18UIContentContainer", "UIView"]
+- !private ["PSo18UIContentContainer", "ZFPlayerModel"]
+- ["PSo18UIContentContainer", "controlView"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "hj_playerBackAction"]
+- ["PSo18UIContentContainer", "hj_playerDownload"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "playerModel"]
+- ["PSo18UIContentContainer", "playerView"]
+- !private ["PSo18UIContentContainer", "popViewController"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "setNavigationBarHidden"]
+- ["PSo18UIContentContainer", "sourceFrame"]
+- ["PSo18UIContentContainer", "videoUrl"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", "viewWillDisappear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "animate"]
+- !private ["PSo17UICoordinateSpace", "autoPlayTheVideo"]
+- !private ["PSo17UICoordinateSpace", "controlView"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo17UICoordinateSpace", "hasPreviewView"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layoutIfNeeded"]
+- !private ["PSo17UICoordinateSpace", "pause"]
+- !private ["PSo17UICoordinateSpace", "playerLayerGravity"]
+- !private ["PSo17UICoordinateSpace", "playerModel"]
+- !private ["PSo17UICoordinateSpace", "setNeedsUpdateConstraints"]
+- !private ["PSo17UICoordinateSpace", "snp"]
+- !private ["PSo17UICoordinateSpace", "updateConstraintsIfNeeded"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "animate"]
+- !private ["PSo13UIDynamicItem", "autoPlayTheVideo"]
+- !private ["PSo13UIDynamicItem", "controlView"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo13UIDynamicItem", "hasPreviewView"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layoutIfNeeded"]
+- !private ["PSo13UIDynamicItem", "pause"]
+- !private ["PSo13UIDynamicItem", "playerLayerGravity"]
+- !private ["PSo13UIDynamicItem", "playerModel"]
+- !private ["PSo13UIDynamicItem", "setNeedsUpdateConstraints"]
+- !private ["PSo13UIDynamicItem", "snp"]
+- !private ["PSo13UIDynamicItem", "updateConstraintsIfNeeded"]
+- !private ["PSo18UIFocusEnvironment", "HJFullScreenPlayerControlView"]
+- !private ["PSo18UIFocusEnvironment", "HJFullScreenPlayerView"]
+- !private ["PSo18UIFocusEnvironment", "NSNotification"]
+- !private ["PSo18UIFocusEnvironment", "NotificationCenter"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "ZFPlayerModel"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "animate"]
+- !private ["PSo18UIFocusEnvironment", "autoPlayTheVideo"]
+- ["PSo18UIFocusEnvironment", "controlView"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo18UIFocusEnvironment", "hasPreviewView"]
+- ["PSo18UIFocusEnvironment", "hj_playerBackAction"]
+- ["PSo18UIFocusEnvironment", "hj_playerDownload"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "pause"]
+- !private ["PSo18UIFocusEnvironment", "playerLayerGravity"]
+- ["PSo18UIFocusEnvironment", "playerModel"]
+- ["PSo18UIFocusEnvironment", "playerView"]
+- !private ["PSo18UIFocusEnvironment", "popViewController"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "setNavigationBarHidden"]
+- !private ["PSo18UIFocusEnvironment", "setNeedsUpdateConstraints"]
+- !private ["PSo18UIFocusEnvironment", "snp"]
+- ["PSo18UIFocusEnvironment", "sourceFrame"]
+- !private ["PSo18UIFocusEnvironment", "updateConstraintsIfNeeded"]
+- ["PSo18UIFocusEnvironment", "videoUrl"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", "viewWillDisappear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "animate"]
+- !private ["PSo11UIFocusItem", "autoPlayTheVideo"]
+- !private ["PSo11UIFocusItem", "controlView"]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo11UIFocusItem", "hasPreviewView"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layoutIfNeeded"]
+- !private ["PSo11UIFocusItem", "pause"]
+- !private ["PSo11UIFocusItem", "playerLayerGravity"]
+- !private ["PSo11UIFocusItem", "playerModel"]
+- !private ["PSo11UIFocusItem", "setNeedsUpdateConstraints"]
+- !private ["PSo11UIFocusItem", "snp"]
+- !private ["PSo11UIFocusItem", "updateConstraintsIfNeeded"]
+- !private ["PSo27UIGestureRecognizerDelegate", "popViewController"]
+- !private ["PSo27UIGestureRecognizerDelegate", "setNavigationBarHidden"]
+- ["CSo22UINavigationController", "deinit"]
+- !private ["CSo22UINavigationController", "popViewController"]
+- !private ["CSo22UINavigationController", "setNavigationBarHidden"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "HJFullScreenPlayerControlView"]
+- ["CSo11UIResponder", "HJFullScreenPlayerView"]
+- ["CSo11UIResponder", "NSDictionary"]
+- !private ["CSo11UIResponder", "NSNotification"]
+- !private ["CSo11UIResponder", "NotificationCenter"]
+- !private ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "URL"]
+- ["CSo11UIResponder", "ZFPlayerModel"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "animate"]
+- !private ["CSo11UIResponder", "autoPlayTheVideo"]
+- ["CSo11UIResponder", "controlView"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "fullScreenBtnDidClickedBlock"]
+- !private ["CSo11UIResponder", "hasPreviewView"]
+- ["CSo11UIResponder", "hj_playerBackAction"]
+- ["CSo11UIResponder", "hj_playerDownload"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layoutIfNeeded"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "pause"]
+- !private ["CSo11UIResponder", "playerLayerGravity"]
+- ["CSo11UIResponder", "playerModel"]
+- ["CSo11UIResponder", "playerView"]
+- !private ["CSo11UIResponder", "popViewController"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "setNavigationBarHidden"]
+- !private ["CSo11UIResponder", "setNeedsUpdateConstraints"]
+- !private ["CSo11UIResponder", "snp"]
+- ["CSo11UIResponder", "sourceFrame"]
+- !private ["CSo11UIResponder", "updateConstraintsIfNeeded"]
+- ["CSo11UIResponder", "videoUrl"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["CSo11UIResponder", "viewWillDisappear"]
+- !private ["PSo30UIResponderStandardEditActions", "HJFullScreenPlayerControlView"]
+- !private ["PSo30UIResponderStandardEditActions", "HJFullScreenPlayerView"]
+- !private ["PSo30UIResponderStandardEditActions", "NSNotification"]
+- !private ["PSo30UIResponderStandardEditActions", "NotificationCenter"]
+- !private ["PSo30UIResponderStandardEditActions", "UIView"]
+- !private ["PSo30UIResponderStandardEditActions", "ZFPlayerModel"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "animate"]
+- !private ["PSo30UIResponderStandardEditActions", "autoPlayTheVideo"]
+- ["PSo30UIResponderStandardEditActions", "controlView"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo30UIResponderStandardEditActions", "hasPreviewView"]
+- ["PSo30UIResponderStandardEditActions", "hj_playerBackAction"]
+- ["PSo30UIResponderStandardEditActions", "hj_playerDownload"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layoutIfNeeded"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationController"]
+- !private ["PSo30UIResponderStandardEditActions", "pause"]
+- !private ["PSo30UIResponderStandardEditActions", "playerLayerGravity"]
+- ["PSo30UIResponderStandardEditActions", "playerModel"]
+- ["PSo30UIResponderStandardEditActions", "playerView"]
+- !private ["PSo30UIResponderStandardEditActions", "popViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "setNavigationBarHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "setNeedsUpdateConstraints"]
+- !private ["PSo30UIResponderStandardEditActions", "snp"]
+- ["PSo30UIResponderStandardEditActions", "sourceFrame"]
+- !private ["PSo30UIResponderStandardEditActions", "updateConstraintsIfNeeded"]
+- ["PSo30UIResponderStandardEditActions", "videoUrl"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidAppear"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
+- ["PSo30UIResponderStandardEditActions", "viewWillDisappear"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "HJFullScreenPlayerControlView"]
+- !private ["PSo16UIStateRestoring", "HJFullScreenPlayerView"]
+- !private ["PSo16UIStateRestoring", "NSNotification"]
+- !private ["PSo16UIStateRestoring", "NotificationCenter"]
+- !private ["PSo16UIStateRestoring", "UIView"]
+- !private ["PSo16UIStateRestoring", "ZFPlayerModel"]
+- ["PSo16UIStateRestoring", "controlView"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "hj_playerBackAction"]
+- ["PSo16UIStateRestoring", "hj_playerDownload"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "playerModel"]
+- ["PSo16UIStateRestoring", "playerView"]
+- !private ["PSo16UIStateRestoring", "popViewController"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "setNavigationBarHidden"]
+- ["PSo16UIStateRestoring", "sourceFrame"]
+- ["PSo16UIStateRestoring", "videoUrl"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "viewWillDisappear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "HJFullScreenPlayerControlView"]
+- !private ["PSo18UITraitEnvironment", "HJFullScreenPlayerView"]
+- !private ["PSo18UITraitEnvironment", "NSNotification"]
+- !private ["PSo18UITraitEnvironment", "NotificationCenter"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "ZFPlayerModel"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "animate"]
+- !private ["PSo18UITraitEnvironment", "autoPlayTheVideo"]
+- ["PSo18UITraitEnvironment", "controlView"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "fullScreenBtnDidClickedBlock"]
+- !private ["PSo18UITraitEnvironment", "hasPreviewView"]
+- ["PSo18UITraitEnvironment", "hj_playerBackAction"]
+- ["PSo18UITraitEnvironment", "hj_playerDownload"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "pause"]
+- !private ["PSo18UITraitEnvironment", "playerLayerGravity"]
+- ["PSo18UITraitEnvironment", "playerModel"]
+- ["PSo18UITraitEnvironment", "playerView"]
+- !private ["PSo18UITraitEnvironment", "popViewController"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "setNavigationBarHidden"]
+- !private ["PSo18UITraitEnvironment", "setNeedsUpdateConstraints"]
+- !private ["PSo18UITraitEnvironment", "snp"]
+- ["PSo18UITraitEnvironment", "sourceFrame"]
+- !private ["PSo18UITraitEnvironment", "updateConstraintsIfNeeded"]
+- ["PSo18UITraitEnvironment", "videoUrl"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", "viewWillDisappear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "animate"]
+- !private ["CSo6UIView", "autoPlayTheVideo"]
+- !private ["CSo6UIView", "controlView"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "fullScreenBtnDidClickedBlock"]
+- !private ["CSo6UIView", "hasPreviewView"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layoutIfNeeded"]
+- !private ["CSo6UIView", "pause"]
+- !private ["CSo6UIView", "playerLayerGravity"]
+- !private ["CSo6UIView", "playerModel"]
+- !private ["CSo6UIView", "setNeedsUpdateConstraints"]
+- !private ["CSo6UIView", "snp"]
+- !private ["CSo6UIView", "updateConstraintsIfNeeded"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "HJFullScreenPlayerControlView"]
+- ["CSo16UIViewController", "HJFullScreenPlayerView"]
+- ["CSo16UIViewController", "NSDictionary"]
+- !private ["CSo16UIViewController", "NSNotification"]
+- !private ["CSo16UIViewController", "NotificationCenter"]
+- !private ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "URL"]
+- ["CSo16UIViewController", "ZFPlayerModel"]
+- ["CSo16UIViewController", "controlView"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "hj_playerBackAction"]
+- ["CSo16UIViewController", "hj_playerDownload"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "playerModel"]
+- ["CSo16UIViewController", "playerView"]
+- !private ["CSo16UIViewController", "popViewController"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "setNavigationBarHidden"]
+- ["CSo16UIViewController", "sourceFrame"]
+- ["CSo16UIViewController", "videoUrl"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", "viewWillDisappear"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["PSo20VTMagicReuseProtocol", "HJFullScreenPlayerControlView"]
+- !private ["PSo20VTMagicReuseProtocol", "HJFullScreenPlayerView"]
+- !private ["PSo20VTMagicReuseProtocol", "NSNotification"]
+- !private ["PSo20VTMagicReuseProtocol", "NotificationCenter"]
+- !private ["PSo20VTMagicReuseProtocol", "UIView"]
+- !private ["PSo20VTMagicReuseProtocol", "ZFPlayerModel"]
+- ["PSo20VTMagicReuseProtocol", "controlView"]
+- ["PSo20VTMagicReuseProtocol", "didReceiveMemoryWarning"]
+- ["PSo20VTMagicReuseProtocol", "hj_playerBackAction"]
+- ["PSo20VTMagicReuseProtocol", "hj_playerDownload"]
+- !private ["PSo20VTMagicReuseProtocol", "init"]
+- !private ["PSo20VTMagicReuseProtocol", "navigationController"]
+- ["PSo20VTMagicReuseProtocol", "playerModel"]
+- ["PSo20VTMagicReuseProtocol", "playerView"]
+- !private ["PSo20VTMagicReuseProtocol", "popViewController"]
+- !private ["PSo20VTMagicReuseProtocol", "print"]
+- !private ["PSo20VTMagicReuseProtocol", "setNavigationBarHidden"]
+- ["PSo20VTMagicReuseProtocol", "sourceFrame"]
+- ["PSo20VTMagicReuseProtocol", "videoUrl"]
+- !private ["PSo20VTMagicReuseProtocol", "view"]
+- ["PSo20VTMagicReuseProtocol", "viewDidAppear"]
+- ["PSo20VTMagicReuseProtocol", "viewDidLoad"]
+- ["PSo20VTMagicReuseProtocol", "viewWillAppear"]
+- ["PSo20VTMagicReuseProtocol", "viewWillDisappear"]
+- ["PSo20VTMagicReuseProtocol", ""]
+- !private ["PSo27ZFPlayerControlViewDelagate", "autoPlayTheVideo"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "controlView"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "delegate"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "hasPreviewView"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "init"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "layoutIfNeeded"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "pause"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "playerLayerGravity"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "playerModel"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "setNeedsUpdateConstraints"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "snp"]
+- !private ["PSo27ZFPlayerControlViewDelagate", "updateConstraintsIfNeeded"]
+- ["OSC20ZFPlayerLayerGravity", "deinit"]
+- !private ["OSC20ZFPlayerLayerGravity", "resize"]
+- ["CSo13ZFPlayerModel", "deinit"]
+- !private ["CSo13ZFPlayerModel", "init"]
+- !private ["CSo13ZFPlayerModel", "title"]
+- !private ["CSo13ZFPlayerModel", "videoURL"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoPlayTheVideo"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "controlView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "hasPreviewView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutIfNeeded"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "pause"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "playerLayerGravity"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "playerModel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsUpdateConstraints"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "snp"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "updateConstraintsIfNeeded"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "HJFullScreenPlayerControlView"]
+- !private ["Ps9_Hashable", "HJFullScreenPlayerView"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "ZFPlayerModel"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "animate"]
+- !private ["Ps9_Hashable", "autoPlayTheVideo"]
+- ["Ps9_Hashable", "controlView"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "fullScreenBtnDidClickedBlock"]
+- !private ["Ps9_Hashable", "hasPreviewView"]
+- ["Ps9_Hashable", "hj_playerBackAction"]
+- ["Ps9_Hashable", "hj_playerDownload"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layoutIfNeeded"]
+- !private ["Ps9_Hashable", "navigationController"]
+- !private ["Ps9_Hashable", "pause"]
+- !private ["Ps9_Hashable", "playerLayerGravity"]
+- ["Ps9_Hashable", "playerModel"]
+- ["Ps9_Hashable", "playerView"]
+- !private ["Ps9_Hashable", "popViewController"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "resize"]
+- !private ["Ps9_Hashable", "setNavigationBarHidden"]
+- !private ["Ps9_Hashable", "setNeedsUpdateConstraints"]
+- !private ["Ps9_Hashable", "snp"]
+- ["Ps9_Hashable", "sourceFrame"]
+- !private ["Ps9_Hashable", "title"]
+- !private ["Ps9_Hashable", "updateConstraintsIfNeeded"]
+- !private ["Ps9_Hashable", "videoURL"]
+- ["Ps9_Hashable", "videoUrl"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidAppear"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "viewWillAppear"]
+- ["Ps9_Hashable", "viewWillDisappear"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "P7SnapKit23ConstraintAttributesDSL"
+- !private "P7SnapKit13ConstraintDSL"
+- !private "C7SnapKit15ConstraintMaker"
+- !private "C7SnapKit23ConstraintMakerEditable"
+- !private "C7SnapKit25ConstraintMakerExtendable"
+- !private "C7SnapKit24ConstraintMakerRelatable"
+- !private "P7SnapKit25ConstraintRelatableTarget"
+- !private "V7SnapKit17ConstraintViewDSL"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "CSo29HJFullScreenPlayerControlView"
+- "CSo22HJFullScreenPlayerView"
+- "PSo16HJPlayerDelegate"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C9WeiBoNews25MoviePlayerViewController"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- "CSo18NotificationCenter"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire14URLConvertible"
+- !private "Sc"
+- "PSo20VTMagicReuseProtocol"
+- !private "PSo27ZFPlayerControlViewDelagate"
+- "OSC20ZFPlayerLayerGravity"
+- "CSo13ZFPlayerModel"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/WeiBoNews-Bridging-Header.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJPlayerControlView.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/WeiBoNews/Component/HJFullScreenPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/Category/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/ZFPlayer/ZFPlayer/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDB.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabase.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMResultSet.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabasePool.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Pods/FMDB/src/fmdb/FMDatabaseQueue.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshNormalHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshStateHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshGifHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoNormalFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoStateFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoGifFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshHeader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshBackFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/NSBundle+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJRefresh.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIScrollView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/UIView+MJExtension.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshConst.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshComponent.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoFooter.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/MMMaterialDesignSpinner.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFFullScreenViewController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIViewController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFBrightnessView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerModel.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayerView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIView+CustomControlView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UITabBarController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UINavigationController+ZFPlayerRotation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/UIImageView+ZFCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/NSObject+Extend.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValueTrackingSlider.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ASValuePopUpView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Headers/ZFPlayer-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/ZFPlayer/ZFPlayer.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/BubbleTransition.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Headers/BubbleTransition-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/BubbleTransition/BubbleTransition.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMenuBar.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTContentView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIScrollView+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIColor+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicView.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicMacros.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTEnumType.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicProtocol.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/UIViewController+VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagicController.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Headers/VTMagic-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/VTMagic/VTMagic.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/a123456/Desktop/React/WeiBoNews/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "57153a711e12b70bb4668c0bd396f0e2"
